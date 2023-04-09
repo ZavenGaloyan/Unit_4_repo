@@ -4,7 +4,7 @@
 
  # Criteria A: Planning:
  ## Problem definition
-
+My client is a grade 11 student that studying the International Bacholoriat diploma program at their school. Despite them having access to numerous online resources, they and they're pear students often struggle to find a supportive community of memebers who can help them study effectively and navigate their individual academic challenges. This casues them to often feel isolated and overwhelmed at times of adversity, particularly when studying alone, which can negatively impact their motivation, learning goals, and in some cases their mental health. Thus the client would like a networking website that connects students and provides a platform for collaborative learning, discussion, and social interaction which can help the client and their peers at the problems they're facing. They would like the website to allow students to create profiles, join groups based on their interests and areas of study, participate in online discussions, share resources and study materials, and collaborate on projects and assignments all in one program. The client believes having a website to cater to their needs will foster a sense of community, allowing for growth in students' academic engagement, and general imrpovement in academic performance.
  ## Success Criteria
 1.
 
