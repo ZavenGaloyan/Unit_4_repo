@@ -31,7 +31,7 @@
 
 |    | Planned Action                                            | Planned Outcome                                                                                                                                         | Design Cycle      | Time Estimate      | Completion Date | Criteria |
 |----|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|--------------------|-----------------|----------|
-|    | Planned Action                                            | Planned Outcome                                                                                                                                         | Design Cycle      | Time Estimate      | Completion Date | Criteria |
+|  1  | Completing Problem Definition                                            | Creating a description for the problem from the client and their special needs                                                                                                                                         | Planning     | 30 minutes      | April 9 | A |
 
  # Criteria C: Development:
 
