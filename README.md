@@ -31,9 +31,8 @@ My client is a grade 11 student that studying the International Baccalaureate di
 
 |    | Planned Action                                            | Planned Outcome                                                                                                                                         | Design Cycle      | Time Estimate      | Completion Date | Criteria |
 |----|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|--------------------|-----------------|----------|
-|  1  | Completing Problem Definition                                            | Creating a description for the problem from the client and their special needs                                                                                                                                         | Planning     | 30 minutes      | April 9 | A |
-
-|  2  | Creating sucesss critiera                                            | Creating a set of criteria that need to be met for the all of the clients requests to be satisfied                                                                                                                                         | Planning     | 30 minutes      | April 13 | A |
+|  1  | Completing Problem Definition                              | Creating a description for the problem from the client and their special needs | Planning     | 30 minutes      | April 9 | A |
+|  2  | Creating sucesss critiera  | Creating a set of criteria that need to be met for the all of the clients requests to be satisfied| Planning     | 30 minutes      | April 13 | A |
  # Criteria C: Development:
 
 
