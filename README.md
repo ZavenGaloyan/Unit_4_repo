@@ -8,17 +8,16 @@ My client is a grade 11 student that studying the International Baccalaureate di
  ## Proposed Solution
  To Create a social network for the client and there school using python, html, and css along with sql databases. It will have seperate pages based off of classes a certain individual takes. These pages will allow students to communicate with their peers and share resources. They can also create their own groups to which their peers can join if they need to complete a project or group task. 
  ## Success Criteria
+ 
 1. Allow users to create accounts and login in there repsective accounts
 
-2. Allow users to navigate to specific function from a centralised menu page
+2. Allow users to create specific academic groups
 
-3. Allow users to create specific groups depending on interest
+3.Allow users to chat bettween eachother and in relative groups using a posting method
 
-4.Allow users to chat bettween eachother and in relative groups 
+4.Allow for users to upload and share resources
 
-5.Allow for users to upload resources
-
-6.Integrate a resources page based off interests 
+5.Integrate a resources page based off interests 
 
  ## Rationale for Proposed Soultion
 
