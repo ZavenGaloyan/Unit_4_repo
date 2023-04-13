@@ -16,7 +16,7 @@ My client is a grade 11 student that studying the International Baccalaureate di
 
 4.Allow users to chat bettween eachother and in relative groups 
 
-5.Allow for users to upload images and resources
+5.Allow for users to upload resources
 
 6.Integrate a resources page based off interests 
 
