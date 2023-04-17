@@ -34,7 +34,7 @@ My client is a grade 11 student that studying the International Baccalaureate di
 |----|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|--------------------|-----------------|----------|
 |  1  | Completing Problem Definition                              | Creating a description for the problem from the client and their special needs | Planning     | 30 minutes      | April 9 | A |
 |  2  | Creating sucesss critiera  | Creating a set of criteria that need to be met for the all of the clients requests to be satisfied| Planning     | 30 minutes      | April 13 | A |
-|  3  | aaaaaaaaaaa  | aaaaaaaaaaaaaaaaaa|aaaaa    | aaaa      |  aa | A |
+|  3  | Proposed soultion  | aaaaaaaaaaaaaaaaaa|aaaaa    | aaaa      |  aa | A |
 |  4  | aaaaaaaaaaa  | aaaaaaaaaaaaaaaaaa|aaaaa    | aaaa      |  aa | A |
 |  5  | aaaaaaaaaaa  | aaaaaaaaaaaaaaaaaa|aaaaa    | aaaa      |  aa | A |
 |  6  | aaaaaaaaaaa  | aaaaaaaaaaaaaaaaaa|aaaaa    | aaaa      |  aa | A |
