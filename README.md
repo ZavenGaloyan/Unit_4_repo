@@ -43,18 +43,18 @@ By using Flask, HTML, and CSS I as a developer will have full control over all o
 |----|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|--------------------|-----------------|----------|
 |  1  | Completing Problem Definition                              | Creating a description for the problem from the client and their special needs | Planning     | 30 minutes      | April 9 | A |
 |  2  | Creating sucesss critiera  | Creating a set of criteria that need to be met for the all of the clients requests to be satisfied| Planning     | 30 minutes      | April 13 | A |
-|  3  | Proposed soultion  | aaaaaaaaaaaaaaaaaa|aaaaa    | aaaa      |  aa | A |
-|  4  | rationale  | aaaaaaaaaaaaaaaaaa|aaaaa    | aaaa      |  aa | A |
-|  5  | ER diagram  | aaaaaaaaaaaaaaaaaa|aaaaa    | aaaa      |  aa | A |
-|  6  | System diagram  | aaaaaaaaaaaaaaaaaa|aaaaa    | aaaa      |  aa | A |
-|  7  | Wireframe diagram  | aaaaaaaaaaaaaaaaaa|aaaaa    | aaaa      |  aa | A |
-|  8  | Login developemnt  | aaaaaaaaaaaaaaaaaa|aaaaa    | aaaa      |  aa | A |
-|  9  | Registration development  | aaaaaaaaaaaaaaaaaa|aaaaa    | aaaa      |  aa | A |
-|  10  | Database implemetation  | aaaaaaaaaaaaaaaaaa|aaaaa    | aaaa      |  aa | A |
-|  11  | Menu Page development  | aaaaaaaaaaaaaaaaaa|aaaaa    | aaaa      |  aa | A |
-|  12  | Classes Page development  | aaaaaaaaaaaaaaaaaa|aaaaa    | aaaa      |  aa | A |
-|  13  | Groups Page development  | aaaaaaaaaaaaaaaaaa|aaaaa    | aaaa      |  aa | A |
-|  14  | Resources Page development  | aaaaaaaaaaaaaaaaaa|aaaaa    | aaaa      |  aa | A |
+|  3  | Proposed soultion  | The first propistion for a soultion for the clients problem. It covers all of the nessisary concerns that were rasied in the client developer meetings |Planning    | Planning      |  April 14 | A |
+|  4  | rationale  | Providing the reasoning for the all of the tools what are to be used in the development aspect of this Social Network. And their why I chose these tools compared methods out for web development|Planning    | Planning      |  April 15 | A |
+|  5  | ER diagram  | A visual diagram for the databases in the Social Network and how they work together  |Planning    | Designing      |  April 16 | A |
+|  6  | System diagram  | This is a visual diagram that represents the process that the users computer and server go through for the Social Network to function properly|Designing  | Designing      |  April 16 | A |
+|  7  | Wireframe diagram  | This is a basic representation in a diagram of all the web pages and buttons with their repsetive function and how they all work together  |Designing   | Designing      |  April 16 | A |
+|  8  | Login developemnt  | Creating a simple login screen that allows the user to enter the Social Network on their individual accounts by inputing their credentials |Development   | Development      |  April 16 | A |
+|  9  | Registration development  | Creating a Page where the new users can create a new account for the Social Network by entering their credentials. That will be sequrly stored in the servers database|Development    | Development      |  April 17 | A |
+|  10  | Database implemetation  | Connecting the registration and Login via a database that stores all of the users data and credentials|Development    | Development      |  April 17 | A |
+|  11  | Menu Page development  | Creating a simple and user friendly UI for users to navigate across the social network |Development    | Development      |  April  | A |
+|  12  | Classes Page development  | This a page where users can join specific descussion groups based on classes they may be taking or interested in |Development    | Development      |  April   | A |
+|  13  | Groups Page development  | This is a page where users can join and create groups for collaborating with other users in their own specific discussion section |Development    | Development      |  April  | A |
+|  14  | Resources Page development  | This is a general page where there will be resources for students that are pre-entered how ever users pay also add their own resources they find |Development    | Development      |  April  | A |
  # Criteria C: Development:
 
 
