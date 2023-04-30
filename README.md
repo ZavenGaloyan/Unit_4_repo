@@ -4,20 +4,22 @@
 
  # Criteria A: Planning:
  ## Problem definition
-My client is a grade 11 student that studying the International Baccalaureate diploma program at their school. Despite them having access to numerous online resources, they and there pear students often struggle to find a supportive community of memebers who can help them study effectively and navigate their individual academic challenges. This casues them to often feel isolated and overwhelmed at times of adversity, particularly when studying alone, which can negatively impact their motivation, learning goals, and in some cases their mental health. Thus the client wishes there was a way for a networking website that connects students and provides a platform for collaborative learning, discussion, and social interaction which can help the them and their peers at the problems they're facing. They would like the platform  to allow students in some way to create profiles, join groups based on their interests and areas of study to better cater to individual needs, participate in online discussions, share resources and study materials, and collaborate on projects and assignments all in one program. The client believes that if all the needs are met that it will foster a sense of community, allowing for their and others academic growth and engagement, and general improvement in academic performance.
+ My client is a grade 11 student that studying the International Baccalaureate diploma program at their school. Despite them having access to numerous online resources, they and there pear students often struggle to find a supportive community of memebers who can help them study effectively and navigate their individual academic challenges. This casues them to often feel isolated and overwhelmed at times of adversity, particularly when studying alone, which can negatively impact their motivation, learning goals, and in some cases their mental health. Thus the client wishes there was a way that can allow students to connect and work together in a collaborative learning enviroment where they may discuss academic problems and help each other work their own problems out. However the client along with other students often feel embaresed with some of the question they want to ask. They have also expressed their difficulies in finding resources for studying in the international Baccalaureate system. The client believes that if these problems are addressed accordingly that it will foster a sense of community, allowing for their and others students academic growth and engagement, and general improvement in academic performance.
  ## Proposed Solution
  To Create a social network for the client and there school using python, html, and css along with sql databases. It will have seperate pages based off of classes a certain individual takes. These pages will allow students to communicate with their peers and share resources. They can also create their own groups to which their peers can join if they need to complete a project or group task. 
  ## Success Criteria
  
-1. Allow users to create accounts and login in there repsective accounts
+1. Allow users to create accounts and login[^1^]
 
-2. Allow users to create specific academic groups
+2.Allow users to chat bettween eachother and in relative classes using a posting method 
 
-3.Allow users to chat bettween eachother and in relative groups using a posting method
+3.Allow for users to upload and share resources
 
-4.Allow for users to upload and share resources
+4.Allow users to comment on specific posts 
 
-5.Integrate a resources page based off interests 
+5.Integrate a resources page based off interests
+
+6.
 
  ## Rationale for Proposed Soultion
 Based off the clients requests and success criteria that have decided upon the next step is the development of such social network. For doing so I have decided on using Flask as the web framework, html as the standard markup language, and css as the sheet style language. These particular tools have been chosen to build the the social netowork due to their appealing traits.
