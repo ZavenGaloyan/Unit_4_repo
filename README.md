@@ -9,7 +9,7 @@
  To Create a social network for the client and there school using python, html, and css along with sql databases. It will have seperate pages based off of classes a certain individual takes. These pages will allow students to communicate with their peers and share resources. They can also create their own groups to which their peers can join if they need to complete a project or group task. 
  ## Success Criteria
  
-1. Allow users to create accounts and login[^1^]
+1. Allow users to create accounts and login <sup>1</sup>
 
 2.Allow users to chat bettween eachother and in relative classes using a posting method 
 
