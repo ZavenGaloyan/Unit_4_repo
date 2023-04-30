@@ -55,13 +55,17 @@ By using Flask, HTML, and CSS I as a developer will have full control over all o
 |  10  | Database implemetation  | Connecting the registration and Login via a database that stores all of the users data and credentials|Development    | 1 hour      |  April 17 | A |
 |  11  | Menu Page development  | Creating a simple and user friendly UI for users to navigate across the social network |Development    | TBD      |  April  | A |
 |  12  | Classes Page development  | This a page where users can join specific descussion groups based on classes they may be taking or interested in |Development    | TBD      |  April   | A |
-|  13  | Groups Page development  | This is a page where users can join and create groups for collaborating with other users in their own specific discussion section |Development    | TBD      |  April  | A |
-|  14  | Resources Page development  | This is a general page where there will be resources for students that are pre-entered how ever users pay also add their own resources they find |Development    | TBD      |  April  | A |
-|  15  | Classes page developments  | The differant class buttons are made to show the discussions for each class based on whats in the database  |Development    | 1 hour 30 minutes      |  April 19 | A |
-|  16  | Creating function for posting information  | Create a button whihc leads to a page that allows users to post information with a title, and content |Development    | 1 hour 30 min      |  April 19  | A |
-|  17  | Improving Visuals of classes page   | To add some styling to the classes page to make it more visualy appealing    | 1 hour      |  April 19  | A |
-|  18  | Adding resources page   | Add a page with many helpful resources for students    | 1 hour      |  April 21  | A |
-|  19  | Login authorization  | Adding flask-login library to make the application more secure    | 1 hour      |  April 21  | A |
+|  13  | Resources Page development  | This is a general page where there will be resources for students that are pre-entered how ever users pay also add their own resources they find |Development    | TBD      |  April  | A |
+|  14  | Classes page developments  | The differant class buttons are made to show the discussions for each class based on whats in the database  |Development    | 1 hour 30 minutes      |  April 19 | A |
+|  15  | Creating function for posting information  | Create a button whihc leads to a page that allows users to post information with a title, and content |Development    | 1 hour 30 min      |  April 19  | A |
+|  16  | Improving Visuals of classes page   | To add some styling to the classes page to make it more visualy appealing    | 1 hour      |  April 19  | A |
+|  17  | Adding resources page   | Add a page with many helpful resources for students    | 1 hour      |  April 21  | A |
+|  18  | Login authorization  | Adding flask-login library to make the application more secure    | 1 hour      |  April 21  | A |
+|  19  | Revising Criteria A  | Adding flask-login library to make the application more secure    | 1 hour      |  April 21  | A |
+|  20  | Implementing Commenting system   | Adding flask-login library to make the application more secure    | 1 hour      |  April 21  | A |
+|  21  | Implementing   | Adding flask-login library to make the application more secure    | 1 hour      |  April 21  | A |
+|  22  | Login authorization  | Adding flask-login library to make the application more secure    | 1 hour      |  April 21  | A |
+
  # Criteria C: Development:
 
 
