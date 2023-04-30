@@ -34,6 +34,11 @@ By using Flask, HTML, and CSS I as a developer will have full control over all o
 
  # Criteria B: Solution Overview:
  ## Flow Chart
+![Final ER drawio (1)](https://user-images.githubusercontent.com/111752809/235333627-3276f8ed-e27d-49ff-a1a4-77a4f3092600.png)
+![Flow chart 1 Posting drawio (1)](https://user-images.githubusercontent.com/111752809/235333673-4f6b47b2-1fd9-4c1b-9409-ce38ad6d2541.png)
+![Final wireframe drawio (1)](https://user-images.githubusercontent.com/111752809/235333678-9c327194-4064-4ed2-883c-f4e8af9e7c74.png)
+![Final ER drawio (1)](https://user-images.githubusercontent.com/111752809/235333679-390f5446-3d80-4ad4-8d61-4951d0fb1577.png)
+![Output App screen (2)](https://user-images.githubusercontent.com/111752809/235333733-c8d8a0ea-76fe-4d2a-b917-14adaeb59f55.png)
 
  ## Test plan
  
