@@ -56,7 +56,7 @@ wirefram diagram
 system diagram
 
  ## Test plan
- |    | Planned Action                                            | Planned Outcome                                                                                                                                         | Design Cycle      | Time Estimate      | Completion Date | Criteria |
+ | Instruction   | Process                                            | Planned action                                                                                                                                         | Planned Outcome      | Completion date      | Criteria | Success Criteria |
 |----|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|--------------------|-----------------|----------|
 
 
