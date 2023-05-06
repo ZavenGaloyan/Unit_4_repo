@@ -34,9 +34,25 @@ By using Flask, HTML, and CSS I as a developer will have full control over all o
 
  # Criteria B: Solution Overview:
  ## Flow Chart
-![Flow chart 1 Posting drawio (1)](https://user-images.githubusercontent.com/111752809/235333673-4f6b47b2-1fd9-4c1b-9409-ce38ad6d2541.png)
+ 
+ ![Flow chart 1 Posting drawio (1) drawio](https://user-images.githubusercontent.com/111752809/236625415-e93e11ce-edb3-4425-b84f-e6f297bf4c8f.png)
+ flow chart 1
+![flow chart 2 drawio](https://user-images.githubusercontent.com/111752809/236625439-ee1d4024-4601-4044-9ea4-d92571f67cdd.png)
+flow chart 2
+ 
+ ![flow chart 3 drawio](https://user-images.githubusercontent.com/111752809/236625402-eb01b634-89a3-4d9c-a499-1b6bdb6b2a78.png)
+ flow chart 3
+ 
+![Final ER1 drawio](https://user-images.githubusercontent.com/111752809/236625450-084cddd6-87b4-4dd4-ad63-418f7a3d5522.png)
+ER diagram
+
+ ![uml drawio (1)](https://user-images.githubusercontent.com/111752809/236625389-0a1fd073-87e1-4e93-a07f-41dbf7e2877f.png)
+ UML diagram
+
 ![Final wireframe drawio (1)](https://user-images.githubusercontent.com/111752809/235333678-9c327194-4064-4ed2-883c-f4e8af9e7c74.png)
+wirefram diagram
 ![Output App screen (2)](https://user-images.githubusercontent.com/111752809/235333733-c8d8a0ea-76fe-4d2a-b917-14adaeb59f55.png)
+system diagram
 
  ## Test plan
  |    | Planned Action                                            | Planned Outcome                                                                                                                                         | Design Cycle      | Time Estimate      | Completion Date | Criteria |
