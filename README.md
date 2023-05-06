@@ -46,8 +46,9 @@ flow chart 2
 ![Final ER1 drawio](https://user-images.githubusercontent.com/111752809/236625450-084cddd6-87b4-4dd4-ad63-418f7a3d5522.png)
 ER diagram
 
- ![uml drawio (1)](https://user-images.githubusercontent.com/111752809/236625389-0a1fd073-87e1-4e93-a07f-41dbf7e2877f.png)
- UML diagram
+![uml12 drawio](https://user-images.githubusercontent.com/111752809/236625886-87d4b502-19aa-429d-ba5d-9e75883280b4.png)
+
+UML diagram
 
 ![Final wireframe drawio (1)](https://user-images.githubusercontent.com/111752809/235333678-9c327194-4064-4ed2-883c-f4e8af9e7c74.png)
 wirefram diagram
