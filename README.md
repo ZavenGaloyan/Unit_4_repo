@@ -56,10 +56,15 @@ wirefram diagram
 system diagram
 
  ## Test plan
- | Instruction   | Process                                            | Planned action                                                                                                                                         | Planned Outcome        | Criteria | Success Criteria |
+ | Instruction   | Process                                            | Planned action                                                                                                                                         | Planned Outcome        | Type | Success Criteria |
 |----|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|--------------------|-----------------|
-
-
+|  Login  | logging in                              | to login to users account | user able to login     | Unit test      |  1 |
+|  Registration  | registering | allow user to register | user able to register account   | Unit test      |  1 |
+|  Classes/posting  | entering classes                            |entering seperate classes and posting | serpated normally     | Integration testing     | 2 |
+|  Uploading Resources  | entering resorces| images and resources are uploarded properly | images entered     | Integration testing      | 3 |
+|  Commenting  | entering comments     | allow users to comment | users can comment    |Integration testing      | April 9 |
+|  Anynous output  | users can post anymous                              | users can comment | the comments work     | Integration testing     | April 9 |
+|  Usability  | functions                           |  for function work accuratly and fast as expected | acomplished     | Non-functional testing     | April 9 |
  ## Record of tasks
 
 |    | Planned Action                                            | Planned Outcome                                                                                                                                         | Design Cycle      | Time Estimate      | Completion Date | Criteria |
