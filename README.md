@@ -122,18 +122,18 @@ system diagram
  ## List of techniques
  
  * Web development using Flask framework
--User registration and login functionality
--Handling form submissions
--Database operations (SQLite)
--File uploads and handling
--Cookie management
--Templating with Jinja2 (rendering HTML templates)
--Routing and URL handling
--Redirecting users
--Input validation with WTForms
--Password encryption and verification
--Handling HTTP requests and responses
--Cascading Style Sheets (CSS) and styling of HTML templates
+* User registration and login functionality
+* Handling form submissions
+* Database operations (SQLite)
+* File uploads and handling
+* Cookie management
+* Templating with Jinja2 (rendering HTML templates)
+* Routing and URL handling
+* Redirecting users
+* Input validation with WTForms
+* Password encryption and verification
+* Handling HTTP requests and responses
+* Cascading Style Sheets (CSS) and styling of HTML templates
 
  # Criteria D: Functionality:
 
