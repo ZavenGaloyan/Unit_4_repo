@@ -262,7 +262,25 @@ def register():
     return render_template('classes_discussion_post_comments.html', post_id=post_id, title=post_title, content=post_content, username=post_username, comments=post_comments, post_images=post_images)
  ```
  ## Data Management [Critiera:1,2,3,4,5,6]
- ```.py
+```.py
+class database_worker:
+    def __init__(self, name):
+        self.connection = sqlite3.connect(name)
+        self.cursor = self.connection.cursor()
+
+    def search(self, query):
+        result = self.cursor.execute(query).fetchall()
+        return result
+
+    def run_save(self, query):
+        self.cursor.execute(query)
+        self.connection.commit()
+
+    def close(self):
+        self.connection.close()
+```
+basis of data management and usage in code
+```.py
  @app.route('/delete_post/<int:post_id>', methods=['POST'])
 def delete_post(post_id):
     db = database_worker("social_net.db")
@@ -277,6 +295,7 @@ def delete_post(post_id):
     <button class="trash-button" type="submit"><i class="fas fa-trash"></i></button>
 </form>
 ```
+
  ## Formating/styling[Critiera:1,2,3,4,5,6]
  ```.py
  <!DOCTYPE html>
