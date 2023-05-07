@@ -292,8 +292,8 @@ return render_template('classes_discussion_post_comments.html', post_id=post_id,
  As Showing the clicked on post, its comments, and creating a new comment were all on the same page I need a way for the algorthim to go through each of the nessicary requirements such as first displaying the post along with its relative content. Then displaying all the comments in the database. Afterwards it will check whether a post comment was been requested or not. This means that once the page is renderd or a post is made the alorithm can quicky complete the nessicary tasks.
  ## Data Management [Critiera:1,2,3,4,5,6]
  ### How the Data structure System
- ![Login data](https://user-images.githubusercontent.com/111752809/236682380-e98628ff-ad79-407f-b238-ad44bcec655b.png)
-
+![data_storage drawio](https://user-images.githubusercontent.com/111752809/236682444-c4a7bf57-a705-4930-9b4b-9c84e1c30434.png)
+The diagram above depicts the hierarchical relationships between classes,posts, and comments. Every class node acts as a parent code in the hierarchical relationships meaning the posts as a child node can have as many posts as the the system can physical handle. This same process occurs for comments where the post acts as a parent node to many comments which are child nodes. What this allows for is an extremly simple method to implement a new class as once a new class id has been given all the post and comments which are later created link to each other. This also means for the development of the front end aspect it only requires one page to display posts, and one to comment. As what is rendered follows the path of each class and post.
 ```.py
 class database_worker:
     def __init__(self, name):
