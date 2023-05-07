@@ -94,14 +94,14 @@ system diagram
 |  25  | GitHub work  | Working on do documentaion for the project  |Development    | 1 hour      |  May 5  | A |
 
 
-
-
-
-
-
-
  # Criteria C: Development:
-
+ ## Existing tools
+ | Software/Development tools| Libraries|
+ |---------------------------|----------|
+ |Python                     |          |
+ 
+ 
+ ## List of techniques
 
 
  # Criteria D: Functionality:
