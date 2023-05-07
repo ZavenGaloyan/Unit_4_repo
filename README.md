@@ -134,13 +134,13 @@ system diagram
 * Password encryption and verification
 * Handling HTTP requests and responses
 * Cascading Style Sheets (CSS) and styling of HTML templates
- ## Refreneces
+ # Refreneces
  ### Main Development Refrences
- ### AWS Code Whisper
+ ## AWS Code Whisper
  "CodeWhisperer is trained on billions of lines of code and can generate code suggestions ranging from snippets to full functions in real time based on your comments and existing code. Bypass time-consuming coding tasks and accelerate building with unfamiliar APIs." https://aws.amazon.com/codewhisperer/
- ### Chatgpt 3
+ ## Chatgpt 3
  ChatGPT-3 is an AI language model developed by OpenAI that can provide insightful suggestions along with assisting with coding and development-related inquiries and offering suggestions on how to improve or procede with issues. It can also help provide soltions when errors or bugs are found it code.
- ### Other refrences
+ ## Other refrences
  
  
  # Criteria D: Functionality:
