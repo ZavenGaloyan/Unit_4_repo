@@ -87,11 +87,11 @@ system diagram
 |  16  | Improving Visuals of classes page   | To add some styling to the classes page to make it more visualy appealing   |Development   | 1 hour      |  April 19  | A |
 |  17  | Adding resources page   | Add a page with many helpful resources for students that are particularly sutited for IB  |Development   | 1 hour      |  April 21  | A |
 |  18  | Login authorization  | Implemenmting cookies to make the website mroe sequre for users. |Development   | 1 hour      |  April 21  | A |
-|  19  | Implementing Commenting database  | Creating a database that is for holding comments connected to each post.   |Development   | 1 hour      |  April 21  | A |
-|  20  | Commenting integration  | Creating a commenting page and make the nessicary connection bettween the database and post. alos inproving the UI of the commenting page  |Development    | 1 hour      |  April 21  | A |
-|  23  | Adding Image uploading | Adding the feature for users to select images from their computer and upload them along with their posts   |Development   | 3 hour      |  April 21  | A |
-|  24  | Code optimization  | Clearing up the code and removing repetitiveness.   |Development   | 1 hour      |  April 21  | A |
-|  25  | GitHub work  | Working on do documentaion for the project  |Development    | 1 hour      |  April 21  | A |
+|  19  | Implementing Commenting database  | Creating a database that is for holding comments connected to each post.   |Development   | 1 hour      |  April 22  | A |
+|  20  | Commenting integration  | Creating a commenting page and make the nessicary connection bettween the database and post. alos inproving the UI of the commenting page  |Development    | 1 hour      |  April 27  | A |
+|  23  | Adding Image uploading | Adding the feature for users to select images from their computer and upload them along with their posts   |Development   | 3 hour      |  April 29  | A |
+|  24  | Code optimization  | Clearing up the code and removing repetitiveness.   |Development   | 1 hour      |  May 2  | A |
+|  25  | GitHub work  | Working on do documentaion for the project  |Development    | 1 hour      |  May 5  | A |
 
 
 
