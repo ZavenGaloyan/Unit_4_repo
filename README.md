@@ -166,6 +166,7 @@ def login():
 
     return render_template("login_screen.html")  # Render the login template
  ```
+ The code above is one part of the first success criteria that being allowing users to login with their respective accounts. The algorthim goes through many conditional statements and logical checks to ensure the data entered by the users is correct and corelated to what is stored in the database. Through this process it will check whether the password entered maxes the encrypted password in the database. Once these set of Condional statements are met then the user is redirected to the menu page. Some difficulties with code involved figuring out the order of the tasks as everything needs to be done at the correct time for the program to function as intended
  ## Registrastion [Critiera:1]
  ```.py
 @app.route('/register', methods=['GET', 'POST'])
@@ -194,7 +195,8 @@ def register():
     # Render the register template
     return render_template('register_screen.html')
  ```
- ## Posting [Critiera:2]
+ The code above is the secodn aspect of the first Criteria being registration. Once a post request has been made by the user it will take the text inputs by the user and being an algotihm to check and process the code. The algorithm will go throught several validation checks to make sure that all the text inputs are filled correctly. One example of this the the email confrmation check that makes sure that the user has entered the correct email. Overall the code decomposes the login functionality into separate steps or subtasks that get handled. It will gor through a process of request methods, retrieving form data, performing database queries, and also checking password validity
+ ## Posting [Critiera:2,6]
  ```.py
   if request.form.get('anonymous'):
     username = 'Anonymous'  # Set the username to 'Anonymous' if the 'anonymous' checkbox is checked
@@ -216,6 +218,7 @@ query = f"INSERT INTO classes (class_id,Username,Title, Content, Images) VALUES 
 db.run_save(query)  # Execute the SQL query
 db.close()  # Close the database connection
  ```
+The code above depicts one aspect of the posting alogrithm that covers two of the success criteira. Starting from the top of the code their is Conditional statement to check whether a user has clicked a checkbox to keep their post Anoymous. As the algorthum progress it will go through many more sets of Condiotnal Statements regarding Image/resources uploading. This is an extremlty vital part that required algorithmic thinking to compltete properly. As uploading files to a server can be an extremly vunrable for a website it goes through these condiiotnal statements to ensure the saftly of the Social Network. This is where I use werkzeug.utils library and secure_filename to make sure the file is safe. After this it checks if the user has selected a image or not to properly enter a standerdised data in the database.
  ## Uploading resources [Critiera:3]
  ```.py
  <form method="POST" enctype="multipart/form-data">
@@ -233,7 +236,7 @@ db.close()  # Close the database connection
 
     <input type="file" name="file" accept="image/*">  <!-- File input field for uploading images -->
 </form>
-
+The code above shows the html code of the posting process. The preious sample of code explored the back-end processes. However this is the frontend aspect. This partiular area was where many difficutis where encountered as I needed a way to make the distintction bettween the class_id, post_id, and comment_id. As they are all related and conntected to each otehr meaning the differation bettween classes was vital. So I employed a method of givign each class an id. However to ahve th id carry over to differant function I enter a hidden input that takes what class the user clicked and saves it here for other function. For example displaying the posts from the database and connecting them to comments. 
  ```
  ## Commenting [Critiera:4]
  ```.py
@@ -265,7 +268,7 @@ db.close()  # Close the database connection
                 post_comments.append(comment)  # Adding the comment to the list of post comments
             break  # Exiting the loop once the desired post is found
  ```
- the code for showing comments
+ This code is responsible for complteting one part of the forth criteria which is for posting commenting. The alogrithm was developemted in the process as follows.  It retrieves post details and comments based on a given post ID. It then splits the post ID into class ID and post ID, connects to the database, and gets all of the corresponding post information from the "classes" table. It then iterates over the this retirveed data and extracts the title, content, username, and images. Additionally, it will retrieves comments for the post from the "comments" table, storing them in a list. That comments go through a loop in the form of a dictionary to extract the username and content of each comment so that it will later get posed The code implements techniques such as database querying, data extraction from rows, list manipulation, and looping to retrieve the given post and its respective comments.
  ```.py
  if request.method == 'POST':
     # Retrieve the comment content from the form
@@ -285,9 +288,12 @@ else:
     return render_template('classes_discussion_post_comments.html', title=post_title, username=post_username, content=post_content, comments=post_comments, post_images=post_images)
 
 return render_template('classes_discussion_post_comments.html', post_id=post_id, title=post_title, content=post_content, username=post_username, comments=post_comments, post_images=post_images)
-
  ```
+ As Showing the clicked on post, its comments, and creating a new comment were all on the same page I need a way for the algorthim to go through each of the nessicary requirements such as first displaying the post along with its relative content. Then displaying all the comments in the database. Afterwards it will check whether a post comment was been requested or not. This means that once the page is renderd or a post is made the alorithm can quicky complete the nessicary tasks.
  ## Data Management [Critiera:1,2,3,4,5,6]
+ ### How the Data structure System
+ ![Login data](https://user-images.githubusercontent.com/111752809/236682380-e98628ff-ad79-407f-b238-ad44bcec655b.png)
+
 ```.py
 class database_worker:
     def __init__(self, name):
