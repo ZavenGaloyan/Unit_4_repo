@@ -99,8 +99,26 @@ system diagram
  | Software/Development tools| Libraries|
  |---------------------------|----------|
  |Python                     |          |
- 
- 
+ | Flask                     | Flask              |
+ |===========================| render_template    |
+ |===========================| request            |
+ |===========================| redirect           |
+ |===========================| url_for            |
+ |===========================| make_response      |
+ | my_lib                    | database_worker    |
+ |===========================| encrypt_password   |
+ |===========================| check_password     |
+ | flask_login               | LoginManager       |
+ |===========================| login_user         |
+ |===========================| logout_user        |
+ |===========================| login_required     |
+ |===========================| UserMixin          |
+ | flask_wtf                 | FlaskForm          |
+ | wtforms                   | FileField          |
+ | =========================== | SubmitField        |
+ | werkzeug.utils            | secure_filename    |
+ | wtforms.validators       | InputRequired      |
+
  ## List of techniques
 
 
