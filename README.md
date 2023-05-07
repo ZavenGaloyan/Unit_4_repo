@@ -85,12 +85,20 @@ system diagram
 |  14  | Classes page developments  | The differant class buttons are made to show the discussions for each class based on whats in the database  |Development    | 1 hour 30 minutes      |  April 19 | A |
 |  15  | Creating function for posting information  | Create a button whihc leads to a page that allows users to post information with a title, and content |Development    | 1 hour 30 min      |  April 19  | A |
 |  16  | Improving Visuals of classes page   | To add some styling to the classes page to make it more visualy appealing    | 1 hour      |  April 19  | A |
-|  17  | Adding resources page   | Add a page with many helpful resources for students    | 1 hour      |  April 21  | A |
-|  18  | Login authorization  | Adding flask-login library to make the application more secure    | 1 hour      |  April 21  | A |
-|  19  | Revising Criteria A  | Adding flask-login library to make the application more secure    | 1 hour      |  April 21  | A |
-|  20  | Implementing Commenting system   | Adding flask-login library to make the application more secure    | 1 hour      |  April 21  | A |
-|  21  | Implementing   | Adding flask-login library to make the application more secure    | 1 hour      |  April 21  | A |
-|  22  | Login authorization  | Adding flask-login library to make the application more secure    | 1 hour      |  April 21  | A |
+|  17  | Adding resources page   | Add a page with many helpful resources for students that are particularly sutited for IB   | 1 hour      |  April 21  | A |
+|  18  | Login authorization  | Implemenmting cookies to make the website mroe sequre for users.  | 1 hour      |  April 21  | A |
+|  19  | Implementing Commenting database  | Creating a database that is for holding comments connected to each post.    | 1 hour      |  April 21  | A |
+|  20  | Commenting integration  | Creating a commenting page and make the nessicary connection bettween the database and post. alos inproving the UI of the commenting page    | 1 hour      |  April 21  | A |
+|  23  | Adding Image uploading | Adding the feature for users to select images from their computer and upload them along with their posts    | 3 hour      |  April 21  | A |
+|  24  | Code optimization  | Clearing up the code and removing repetitiveness.    | 1 hour      |  April 21  | A |
+|  25  | GitHub work  | Working on do documentaion for the project    | 1 hour      |  April 21  | A |
+
+
+
+
+
+
+
 
  # Criteria C: Development:
 
