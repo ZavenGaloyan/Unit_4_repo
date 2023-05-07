@@ -146,166 +146,207 @@ system diagram
  # Code
  ## Login[Critiera:1]
  ```.py
- @app.route('/', methods=['GET', 'POST'])
+@app.route('/', methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
-        email = request.form['email']
-        passwd = request.form['passwd']
-        db = database_worker("social_net.db")
-        user = db.search(f"SELECT * from user where email = '{email}'")
+        email = request.form['email']  # Retrieve email from the form data
+        passwd = request.form['passwd']  # Retrieve password from the form data
+        
+        db = database_worker("social_net.db")  # Create a connection to the database
+        user = db.search(f"SELECT * from user where email = '{email}'")  # Search for a user with the given email
+
         if user:
             user = user[0]
             id, email_db, hashed, username = user
-            if check_password(hashed_password=hashed, user_password=passwd):
-                response = make_response(redirect(url_for('menu')))
-                response.set_cookie('user_id', f"{id}")
+
+            if check_password(hashed_password=hashed, user_password=passwd):  # Check if the password is correct
+                response = make_response(redirect(url_for('menu')))  # Create a redirect response to the 'menu' page
+                response.set_cookie('user_id', f"{id}")  # Set a cookie with the user ID
                 return response
 
-    return render_template("login_screen.html")
+    return render_template("login_screen.html")  # Render the login template
  ```
  ## Registrastion [Critiera:1]
  ```.py
- app.route('/register', methods=['GET', 'POST'])
+@app.route('/register', methods=['GET', 'POST'])
 def register():
     if request.method == 'POST':
-        email = request.form['email']
-        email_confirmation = request.form['email_confirm']
-        username = request.form['username']
-        password = request.form['passwd']
-        password_confirmation = request.form['passwd_confirm']
-        if email != email_confirmation:
+        email = request.form['email']  # Retrieve email from the form data
+        email_confirmation = request.form['email_confirm']  # Retrieve email confirmation from the form data
+        username = request.form['username']  # Retrieve username from the form data
+        password = request.form['passwd']  # Retrieve password from the form data
+        password_confirmation = request.form['passwd_confirm']  # Retrieve password confirmation from the form data
+        
+        if email != email_confirmation:  # Check if email and email confirmation match
             return "Email confirmation doesn't match, please try again."
-        if password != password_confirmation:
-            return "Password confirmation doesn't match please  try again."
-            
-        db = database_worker("social_net.db")
-        hashed_password = encrypt_password(password)
-        query = f"INSERT INTO user (email, password, username) VALUES ('{email}', '{hashed_password}','{username}')"
-        db.run_save(query)
-        db.close()
+        if password != password_confirmation:  # Check if password and password confirmation match
+            return "Password confirmation doesn't match, please try again."
 
-        return redirect(url_for('login'))
+        db = database_worker("social_net.db")  # Create a connection to the database
+        hashed_password = encrypt_password(password)  # Encrypt the password
+
+        query = f"INSERT INTO user (email, password, username) VALUES ('{email}', '{hashed_password}','{username}')"  # Create an SQL query to insert user data into the database
+        db.run_save(query)  # Execute the SQL query
+        db.close()  # Close the database connection
+
+        return redirect(url_for('login'))  # Redirect to the login page
+
+    # Render the register template
+    return render_template('register_screen.html')
  ```
  ## Posting [Critiera:2]
  ```.py
   if request.form.get('anonymous'):
-            username = 'Anonymous'
-        file = request.files['file']
-        if file.filename == '':
-            print('no file')
-        if file.filename != '':
-            filename  = secure_filename(file.filename)
-            file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-            print('file successful')
-        if file.filename == '':
-            filename = "NONE"
-        query = f"INSERT INTO classes (class_id,Username,Title, Content, Images) VALUES ('{class_id}', '{username}', '{title}','{content}','{filename}');"
-        db.run_save(query)
-        db.close()
+    username = 'Anonymous'  # Set the username to 'Anonymous' if the 'anonymous' checkbox is checked
+
+file = request.files['file']  # Retrieve the uploaded file from the form data
+
+if file.filename == '':
+    print('no file')  # Print a message if no file is selected
+
+if file.filename != '':
+    filename  = secure_filename(file.filename)  # Securely get the filename
+    file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))  # Save the file to the specified folder
+    print('file successful')  # Print a message if the file is successfully saved
+
+if file.filename == '':
+    filename = "NONE"  # Set the filename to "NONE" if no file is selected
+
+query = f"INSERT INTO classes (class_id,Username,Title, Content, Images) VALUES ('{class_id}', '{username}', '{title}','{content}','{filename}');"  # Create an SQL query to insert data into the classes table
+db.run_save(query)  # Execute the SQL query
+db.close()  # Close the database connection
  ```
  ## Uploading resources [Critiera:3]
  ```.py
  <form method="POST" enctype="multipart/form-data">
-        <h2>Create a Post</h2>
-        <input class="hidden" type="text" name="class_id" value="{{ class_id }}"></input>
-        <label for="title"><b>Title</b></label>
-        <input type="text" placeholder="Enter Title" name="title" required>
+    <h2>Create a Post</h2>
+    <input class="hidden" type="text" name="class_id" value="{{ class_id }}"></input>  <!-- Hidden input field to store the class ID -->
 
-        <label for="content"><b>Content</b></label>
-        <textarea placeholder="Enter Content" name="content" required></textarea>
+    <label for="title"><b>Title</b></label>
+    <input type="text" placeholder="Enter Title" name="title" required>  <!-- Input field for entering the post title -->
 
-        <input type="checkbox" name="anonymous" id="anonymous" value="true">
-        <label for="anonymous">Keep Anonymous</label>
+    <label for="content"><b>Content</b></label>
+    <textarea placeholder="Enter Content" name="content" required></textarea>  <!-- Textarea for entering the post content -->
 
-        <input type="file" name="file" accept="image/*">
+    <input type="checkbox" name="anonymous" id="anonymous" value="true">  <!-- Checkbox for anonymous posting -->
+    <label for="anonymous">Keep Anonymous</label>
+
+    <input type="file" name="file" accept="image/*">  <!-- File input field for uploading images -->
+</form>
+
  ```
  ## Commenting [Critiera:4]
  ```.py
  def post_comments(post_id):
-    post_id = post_id.split(':')
+    post_id = post_id.split(':')  # Splitting the post ID into class ID and post ID
     class_id = post_id[0]
     posts_id = post_id[1]
-    db = database_worker("social_net.db")
+    db = database_worker("social_net.db")  # Creating a database worker object
+
+    # Fetching the post details from the database based on the class ID
     posts = db.search(f"SELECT * from classes where class_id='{class_id}'")
+
     for i, row in enumerate(posts):
         if posts_id == f'{i + 1}':
-            post_title = row[3]
-            post_content = row[4]
-            post_username = row[2]
-            post_images = row[5] if row[5] else 'NONE'
-            post_comments = []
+            post_title = row[3]  # Extracting the post title from the row
+            post_content = row[4]  # Extracting the post content from the row
+            post_username = row[2]  # Extracting the post username from the row
+            post_images = row[5] if row[5] else 'NONE'  # Extracting the post images from the row, or set it to 'NONE' if it's empty
+            post_comments = []  # List to store post comments
+
+            # Fetching the comments for the post from the database
             comment_rows = db.search(f"SELECT * from comments where post_id='{i + 1}' and class_id = {class_id}")
+
             for comment_row in comment_rows:
                 comment = {
-                    'username': comment_row[2],
-                    'content': comment_row[3]
+                    'username': comment_row[2],  # Extracting the comment username from the row
+                    'content': comment_row[3]  # Extracting the comment content from the row
                 }
-                post_comments.append(comment)
-            break
+                post_comments.append(comment)  # Adding the comment to the list of post comments
+            break  # Exiting the loop once the desired post is found
  ```
  the code for showing comments
  ```.py
-     if request.method == 'POST':
-        # retrieve the comment content from the form
-        comment_content = request.form['comment']
-        user_id = request.cookies.get('user_id')
-        username = db.search(f"SELECT username from user where id ='{user_id}'")
-        # insert the new comment into the database
-        query = (f"INSERT INTO comments (post_id, class_id, Comment_Username, Comment_Content) VALUES ({i + 1}, {class_id}, '{username[0][0]}', '{comment_content}')")
-        db.run_save(query)
-        db.close()
-        # redirect to the same page to refresh the comments list
-        return redirect(request.url)
+ if request.method == 'POST':
+    # Retrieve the comment content from the form
+    comment_content = request.form['comment']
+    user_id = request.cookies.get('user_id')
+    username = db.search(f"SELECT username from user where id ='{user_id}'")
 
-    else:
-        # render the page with the existing comments
-        return render_template('classes_discussion_post_comments.html', title=post_title, username=post_username, content=post_content, comments=post_comments, post_images=post_images)
+    # Insert the new comment into the database
+    query = (f"INSERT INTO comments (post_id, class_id, Comment_Username, Comment_Content) VALUES ({i + 1}, {class_id}, '{username[0][0]}', '{comment_content}')")
+    db.run_save(query)
+    db.close()
 
-    return render_template('classes_discussion_post_comments.html', post_id=post_id, title=post_title, content=post_content, username=post_username, comments=post_comments, post_images=post_images)
+    # Redirect to the same page to refresh the comments list
+    return redirect(request.url)
+else:
+    # Render the page with the existing comments
+    return render_template('classes_discussion_post_comments.html', title=post_title, username=post_username, content=post_content, comments=post_comments, post_images=post_images)
+
+return render_template('classes_discussion_post_comments.html', post_id=post_id, title=post_title, content=post_content, username=post_username, comments=post_comments, post_images=post_images)
+
  ```
  ## Data Management [Critiera:1,2,3,4,5,6]
 ```.py
 class database_worker:
     def __init__(self, name):
+        # Initialize the database worker by connecting to the specified database
         self.connection = sqlite3.connect(name)
         self.cursor = self.connection.cursor()
 
     def search(self, query):
+        # Execute the search query and fetch all results
         result = self.cursor.execute(query).fetchall()
         return result
 
     def run_save(self, query):
+        # Execute the query and commit changes to the database
         self.cursor.execute(query)
         self.connection.commit()
 
     def close(self):
+        # Close the database connection
         self.connection.close()
 ```
 basis of data management and usage in code
 ```.py
- @app.route('/delete_post/<int:post_id>', methods=['POST'])
+@app.route('/delete_post/<int:post_id>', methods=['POST'])
 def delete_post(post_id):
+    # Initialize the database worker
     db = database_worker("social_net.db")
+    
+    # Construct the query to delete the post with the specified post_id
     query = (f"DELETE FROM classes WHERE id={post_id}")
+    
+    # Execute the query to delete the post
     db.run_save(query)
+    
+    # Close the database connection
     db.close()
+    
+    # Redirect to the 'menu' page after deleting the post
     return redirect(url_for('menu'))
+
  ```
  formating
 ```.py
 <form action="{{ url_for('delete_post', post_id=post['id']) }}" method="post">
+    <!-- Delete Post Form -->
     <button class="trash-button" type="submit"><i class="fas fa-trash"></i></button>
 </form>
 ```
 
  ## Formating/styling[Critiera:1,2,3,4,5,6]
  ```.py
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <title>My Menu Page</title>
+    <!-- Referencing the CSS containing style sheet -->
     <link rel="stylesheet" href="/static/Menu_style.css">
     <style>
+    <!-- Base CSS for every page -->
       body {
         background-image: url('/static/background gradient.jpg');
         background-size: cover;
@@ -316,12 +357,12 @@ def delete_post(post_id):
     </style>
   </head>
   <body>
+    <!-- Sidebar -->
     <div class="sidebar">
       <a class="active" href="/menu">Home</a>
       <a href="/classes">CLASSES</a>
       <a href="/resources">RESOURCES</a>
     </div>
-<--
  ```
  every page is the same 
  
