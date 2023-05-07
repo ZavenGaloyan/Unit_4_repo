@@ -141,7 +141,168 @@ system diagram
  ## Chatgpt 3
  ChatGPT-3 is an AI language model developed by OpenAI that can provide insightful suggestions along with assisting with coding and development-related inquiries and offering suggestions on how to improve or procede with issues. It can also help provide soltions when errors or bugs are found it code.
  ## Other refrences
- 
+ # Code
+ ## Login[Critiera:1]
+ ```.py
+ @app.route('/', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        email = request.form['email']
+        passwd = request.form['passwd']
+        db = database_worker("social_net.db")
+        user = db.search(f"SELECT * from user where email = '{email}'")
+        if user:
+            user = user[0]
+            id, email_db, hashed, username = user
+            if check_password(hashed_password=hashed, user_password=passwd):
+                response = make_response(redirect(url_for('menu')))
+                response.set_cookie('user_id', f"{id}")
+                return response
+
+    return render_template("login_screen.html")
+ ```
+ ## Registrastion [Critiera:1]
+ ```.py
+ app.route('/register', methods=['GET', 'POST'])
+def register():
+    if request.method == 'POST':
+        email = request.form['email']
+        email_confirmation = request.form['email_confirm']
+        username = request.form['username']
+        password = request.form['passwd']
+        password_confirmation = request.form['passwd_confirm']
+        if email != email_confirmation:
+            return "Email confirmation doesn't match, please try again."
+        if password != password_confirmation:
+            return "Password confirmation doesn't match please  try again."
+            
+        db = database_worker("social_net.db")
+        hashed_password = encrypt_password(password)
+        query = f"INSERT INTO user (email, password, username) VALUES ('{email}', '{hashed_password}','{username}')"
+        db.run_save(query)
+        db.close()
+
+        return redirect(url_for('login'))
+ ```
+ ## Posting [Critiera:2]
+ ```.py
+  if request.form.get('anonymous'):
+            username = 'Anonymous'
+        file = request.files['file']
+        if file.filename == '':
+            print('no file')
+        if file.filename != '':
+            filename  = secure_filename(file.filename)
+            file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+            print('file successful')
+        if file.filename == '':
+            filename = "NONE"
+        query = f"INSERT INTO classes (class_id,Username,Title, Content, Images) VALUES ('{class_id}', '{username}', '{title}','{content}','{filename}');"
+        db.run_save(query)
+        db.close()
+ ```
+ ## Uploading resources [Critiera:3]
+ ```.py
+ <form method="POST" enctype="multipart/form-data">
+        <h2>Create a Post</h2>
+        <input class="hidden" type="text" name="class_id" value="{{ class_id }}"></input>
+        <label for="title"><b>Title</b></label>
+        <input type="text" placeholder="Enter Title" name="title" required>
+
+        <label for="content"><b>Content</b></label>
+        <textarea placeholder="Enter Content" name="content" required></textarea>
+
+        <input type="checkbox" name="anonymous" id="anonymous" value="true">
+        <label for="anonymous">Keep Anonymous</label>
+
+        <input type="file" name="file" accept="image/*">
+ ```
+ ## Commenting [Critiera:4]
+ ```.py
+ def post_comments(post_id):
+    post_id = post_id.split(':')
+    class_id = post_id[0]
+    posts_id = post_id[1]
+    db = database_worker("social_net.db")
+    posts = db.search(f"SELECT * from classes where class_id='{class_id}'")
+    for i, row in enumerate(posts):
+        if posts_id == f'{i + 1}':
+            post_title = row[3]
+            post_content = row[4]
+            post_username = row[2]
+            post_images = row[5] if row[5] else 'NONE'
+            post_comments = []
+            comment_rows = db.search(f"SELECT * from comments where post_id='{i + 1}' and class_id = {class_id}")
+            for comment_row in comment_rows:
+                comment = {
+                    'username': comment_row[2],
+                    'content': comment_row[3]
+                }
+                post_comments.append(comment)
+            break
+ ```
+ the code for showing comments
+ ```.py
+     if request.method == 'POST':
+        # retrieve the comment content from the form
+        comment_content = request.form['comment']
+        user_id = request.cookies.get('user_id')
+        username = db.search(f"SELECT username from user where id ='{user_id}'")
+        # insert the new comment into the database
+        query = (f"INSERT INTO comments (post_id, class_id, Comment_Username, Comment_Content) VALUES ({i + 1}, {class_id}, '{username[0][0]}', '{comment_content}')")
+        db.run_save(query)
+        db.close()
+        # redirect to the same page to refresh the comments list
+        return redirect(request.url)
+
+    else:
+        # render the page with the existing comments
+        return render_template('classes_discussion_post_comments.html', title=post_title, username=post_username, content=post_content, comments=post_comments, post_images=post_images)
+
+    return render_template('classes_discussion_post_comments.html', post_id=post_id, title=post_title, content=post_content, username=post_username, comments=post_comments, post_images=post_images)
+ ```
+ ## Data Management [Critiera:1,2,3,4,5,6]
+ ```.py
+ @app.route('/delete_post/<int:post_id>', methods=['POST'])
+def delete_post(post_id):
+    db = database_worker("social_net.db")
+    query = (f"DELETE FROM classes WHERE id={post_id}")
+    db.run_save(query)
+    db.close()
+    return redirect(url_for('menu'))
+ ```
+ formating
+```.py
+<form action="{{ url_for('delete_post', post_id=post['id']) }}" method="post">
+    <button class="trash-button" type="submit"><i class="fas fa-trash"></i></button>
+</form>
+```
+ ## Formating/styling[Critiera:1,2,3,4,5,6]
+ ```.py
+ <!DOCTYPE html>
+<html>
+  <head>
+    <title>My Menu Page</title>
+    <link rel="stylesheet" href="/static/Menu_style.css">
+    <style>
+      body {
+        background-image: url('/static/background gradient.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sidebar">
+      <a class="active" href="/menu">Home</a>
+      <a href="/classes">CLASSES</a>
+      <a href="/resources">RESOURCES</a>
+    </div>
+<--
+ ```
+ every page is the same 
  
  # Criteria D: Functionality:
 
