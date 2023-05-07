@@ -120,6 +120,7 @@ system diagram
  | wtforms.validators       | InputRequired      |
 
  ## List of techniques
+ `
 -Web development using Flask framework
 -User registration and login functionality
 -Handling form submissions
@@ -133,7 +134,7 @@ system diagram
 -Password encryption and verification
 -Handling HTTP requests and responses
 -Cascading Style Sheets (CSS) and styling of HTML templates
-
+`
  # Criteria D: Functionality:
 
 
