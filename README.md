@@ -39,26 +39,31 @@ By using Flask, HTML, and CSS I as a developer will have full control over all o
  ## Flow Chart 1
  ![Flow chart 1 Posting drawio (1) drawio](https://user-images.githubusercontent.com/111752809/236625415-e93e11ce-edb3-4425-b84f-e6f297bf4c8f.png)
  
- flow chart 1
+  **Fig-1**:flow chart 1
  ## Flow chart 2
 ![flow chart 2 drawio](https://user-images.githubusercontent.com/111752809/236625439-ee1d4024-4601-4044-9ea4-d92571f67cdd.png)
-flow chart 2
+
+ **Fig-2**:flow chart 2
 ## Flow chart 3
  ![flow chart 3 drawio](https://user-images.githubusercontent.com/111752809/236625402-eb01b634-89a3-4d9c-a499-1b6bdb6b2a78.png)
- flow chart 3
+ 
+  **Fig-3**:flow chart 3
  ## ER
 ![Final ER1 drawio](https://user-images.githubusercontent.com/111752809/236625450-084cddd6-87b4-4dd4-ad63-418f7a3d5522.png)
-ER diagram
+
+ **Fig-4**:ER diagram
 ## UML Diagram
 ![uml12 drawio](https://user-images.githubusercontent.com/111752809/236625886-87d4b502-19aa-429d-ba5d-9e75883280b4.png)
 
-UML diagram
+ **Fig-5**:UML diagram
 ## Wireframe Diagram
 ![Final wireframe drawio (1)](https://user-images.githubusercontent.com/111752809/235333678-9c327194-4064-4ed2-883c-f4e8af9e7c74.png)
-wirefram diagram
+
+ **Fig-6**:wirefram diagram
 ## System diagram
 ![Output App screen (2)](https://user-images.githubusercontent.com/111752809/235333733-c8d8a0ea-76fe-4d2a-b917-14adaeb59f55.png)
-system diagram
+
+ **Fig-7**:system diagram
 
  ## Test plan
  | Instruction   | Process                                            | Planned action                                                                                                                                         | Planned Outcome        | Type | Success Criteria |
@@ -296,7 +301,7 @@ return render_template('classes_discussion_post_comments.html', post_id=post_id,
  ## Data Management [Critiera:1,2,3,4,5,6]
  ### How the Data structure System
 ![data_storage drawio](https://user-images.githubusercontent.com/111752809/236682444-c4a7bf57-a705-4930-9b4b-9c84e1c30434.png)
-The diagram above depicts the hierarchical relationships between classes,posts, and comments. Every class node acts as a parent code in the hierarchical relationships meaning the posts as a child node can have as many posts as the the system can physical handle. This same process occurs for comments where the post acts as a parent node to many comments which are child nodes. What this allows for is an extremly simple method to implement a new class as once a new class id has been given all the post and comments which are later created link to each other. This also means for the development of the front end aspect it only requires one page to display posts, and one to comment. As what is rendered follows the path of each class and post.
+ **Fig-8**:The diagram above depicts the hierarchical relationships between classes,posts, and comments. Every class node acts as a parent code in the hierarchical relationships meaning the posts as a child node can have as many posts as the the system can physical handle. This same process occurs for comments where the post acts as a parent node to many comments which are child nodes. What this allows for is an extremly simple method to implement a new class as once a new class id has been given all the post and comments which are later created link to each other. This also means for the development of the front end aspect it only requires one page to display posts, and one to comment. As what is rendered follows the path of each class and post.
 ```.py
 class database_worker:
     def __init__(self, name):
