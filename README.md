@@ -236,8 +236,8 @@ The code above depicts one aspect of the posting alogrithm that covers two of th
 
     <input type="file" name="file" accept="image/*">  <!-- File input field for uploading images -->
 </form>
-The code above shows the html code of the posting process. The preious sample of code explored the back-end processes. However this is the frontend aspect. This partiular area was where many difficutis where encountered as I needed a way to make the distintction bettween the class_id, post_id, and comment_id. As they are all related and conntected to each otehr meaning the differation bettween classes was vital. So I employed a method of givign each class an id. However to ahve th id carry over to differant function I enter a hidden input that takes what class the user clicked and saves it here for other function. For example displaying the posts from the database and connecting them to comments. 
  ```
+ The code above shows the html code of the posting process. The preious sample of code explored the back-end processes. However this is the frontend aspect. This partiular area was where many difficutis where encountered as I needed a way to make the distintction bettween the class_id, post_id, and comment_id. As they are all related and conntected to each otehr meaning the differation bettween classes was vital. So I employed a method of givign each class an id. However to ahve th id carry over to differant function I enter a hidden input that takes what class the user clicked and saves it here for other function. For example displaying the posts from the database and connecting them to comments. 
  ## Commenting [Critiera:4]
  ```.py
  def post_comments(post_id):
@@ -315,7 +315,7 @@ class database_worker:
         # Close the database connection
         self.connection.close()
 ```
-basis of data management and usage in code
+The code above shows how this Social Networks process how information gets too and from various data tables. This is one example where OOP(Object Oritented Programming) was used allow various functions to be called when ever needed rather than writing the whole algorithm over and over. The class has 3 methods which are responsible for handling interactions with the SQLite database. When I am initialized with a name, I connect to the specified database using sqlite3.connect. The search(self, query) method executes a given search query on the connected database, fetches all the results using the fetchall() method, and returns the fetched results. The run_save(self, query) method executes a given query that modifies the database using the execute() method, and then commits the changes to the database using the commit() method. And finally the close(self) method closes the connection to the database when it is no longer needed.
 ```.py
 @app.route('/delete_post/<int:post_id>', methods=['POST'])
 def delete_post(post_id):
@@ -335,14 +335,14 @@ def delete_post(post_id):
     return redirect(url_for('menu'))
 
  ```
- formating
+ The code above is an example another aspect of data management. That being keeping the data tables in the sqlite database organized and clear of any unessiary content. The functions allows users to quickly and easily delete posts that they longer wish to have. 
 ```.py
 <form action="{{ url_for('delete_post', post_id=post['id']) }}" method="post">
     <!-- Delete Post Form -->
     <button class="trash-button" type="submit"><i class="fas fa-trash"></i></button>
 </form>
 ```
-
+The code above shows the Html for deleting posts. Instead of having a simple button that says delete I deceied to use a trashcan Icon to represent the delete button improve the UI experiance by keeping it minimal. This was done by refrencing this web address "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
  ## Formating/styling[Critiera:1,2,3,4,5,6]
  ```.py
 <!DOCTYPE html>
@@ -370,7 +370,7 @@ def delete_post(post_id):
       <a href="/resources">RESOURCES</a>
     </div>
  ```
- every page is the same 
+ The html code above establishes a consistent structure and style for the pages in the social network to follow, with a sidebar navigation menu and a base CSS for a background image it provieds a simple template for the UI. Other features and content can be added within the <body> section based on this template keeping pages consistent.
  
  # Criteria D: Functionality:
 
