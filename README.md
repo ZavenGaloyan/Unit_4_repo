@@ -375,6 +375,10 @@ The code above shows the Html for deleting posts. Instead of having a simple but
  # Criteria D: Functionality:
 
 
+https://user-images.githubusercontent.com/111752809/236778483-aef4f224-cb17-4fc4-acb3-71bb1dd3d926.mp4
+
+
+
  ## Citation
 
  
