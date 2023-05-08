@@ -36,11 +36,13 @@ By using Flask, HTML, and CSS I as a developer will have full control over all o
  ## Data dictionaires
  ![Login data](https://user-images.githubusercontent.com/111752809/236673359-ea5125d6-662d-4ef5-b3b1-7ff7a873d5af.png)
 
- ## Flow Chart
+ ## Flow Chart 1
  ![Flow chart 1 Posting drawio (1) drawio](https://user-images.githubusercontent.com/111752809/236625415-e93e11ce-edb3-4425-b84f-e6f297bf4c8f.png)
  flow chart 1
+ ## Flow chart 2
 ![flow chart 2 drawio](https://user-images.githubusercontent.com/111752809/236625439-ee1d4024-4601-4044-9ea4-d92571f67cdd.png)
 flow chart 2
+## Flow chart 3
  ![flow chart 3 drawio](https://user-images.githubusercontent.com/111752809/236625402-eb01b634-89a3-4d9c-a499-1b6bdb6b2a78.png)
  flow chart 3
  ## ER
