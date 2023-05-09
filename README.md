@@ -410,5 +410,20 @@ https://drive.google.com/drive/folders/18-R1u6SCh9nO37DIwpqQOOodigA2-RG1?usp=sha
  
 
  ## Apendix
+ https://www.analyticsvidhya.com/blog/2021/10/easy-introduction-to-flask-framework-for-beginners/
+ 
+ https://codeinstitute.net/global/blog/what-is-html-and-why-should-i-learn-it/
+ 
+ https://www.howtogeek.com/devops/what-is-sqlite-and-why-is-it-so-popular/
+ 
+ https://stackoverflow.com/questions/22171558/what-does-enumerate-mean
+ 
+https://www.filestack.com/fileschool/html/html-file-upload-tutorial-example/
+ 
+https://aws.amazon.com/codewhisperer/
+ 
+https://www.w3schools.com/html/html_css.asp
+ 
+https://www.revisionvillage.com/ib-math/analysis-and-approaches-hl/
  ### Client Meeting notes
 
