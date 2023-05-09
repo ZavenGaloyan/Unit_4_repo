@@ -28,7 +28,7 @@ Flask which is written in python syntax is a lightweight web framework that allo
 
 HTML was chosen as the standard markup language for this particualr project as it is considered the industry standard for any programs that are build for web browsers. Due to its popularity it means that it is widly supported acoross many web browsers and has many online resoureces to help increase the speed of development and functionality of the social network for the client.
 
-CSS similarly to the reason was HTML is being used CSS is the most popular method for styling formating of websites. Its vast possiblitiyes of custimization allow for any of the clients needs to be met accordingly. Also the ease of integrating CSS with HTML will allow for developers to easily and effectivly meet specific requirments of thge client.
+CSS similarly to the reason was HTML is being used CSS is the most popular method for styling formating of websites. Its vast possiblitiyes of custimization allow for any of the clients needs to be met accordingly. Also the ease of integrating CSS with HTML will allow for developers to easily and effectivly meet specific requirments of the client.
 
 By using Flask, HTML, and CSS I as a developer will have full control over all of the aspects of the program allowing me to fully meet any of the clients requirments in terms of design and functionality. While not comprimising on time constrains or developer setbacks that may occur if other methods were to be used. 
 
