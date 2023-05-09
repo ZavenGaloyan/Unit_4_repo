@@ -39,7 +39,7 @@ By using Flask, HTML, and CSS I as a developer will have full control over all o
  ## Flow Chart 1
  ![Flow chart 1 Posting drawio (1) drawio](https://user-images.githubusercontent.com/111752809/236625415-e93e11ce-edb3-4425-b84f-e6f297bf4c8f.png)
  
-  **Fig-1**:flow chart 1
+  **Fig-1**:   
  ## Flow chart 2
 ![flow chart 2 drawio](https://user-images.githubusercontent.com/111752809/236625439-ee1d4024-4601-4044-9ea4-d92571f67cdd.png)
 
