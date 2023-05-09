@@ -39,11 +39,11 @@ By using Flask, HTML, and CSS I as a developer will have full control over all o
  ## Flow Chart 1
  ![Flow chart 1 Posting drawio (1) drawio](https://user-images.githubusercontent.com/111752809/236625415-e93e11ce-edb3-4425-b84f-e6f297bf4c8f.png)
  
-  **Fig-1**:   
+  **Fig-1**: Once the alorithm recives a post request begins a process of getting all of the nessisary parameters for a post. It will receive the title, content, and images take from the user input. It receives the username by first getting the user_id with the cookie then quering the user_id to database to find the username. Once all the data has been collected it will check whether the user has selected to keep the username anaymous, after which it will enter all of the data into their respective places in the database.
  ## Flow chart 2
 ![flow chart 2 drawio](https://user-images.githubusercontent.com/111752809/236625439-ee1d4024-4601-4044-9ea4-d92571f67cdd.png)
 
- **Fig-2**:flow chart 2
+ **Fig-2**: On the instance a request is made the algorthm will begin by  creating a connection to the "social_net.db" atabase. The class_id is retrieved from the request arguments. After which, a query is run to collect all of data from the "classes" table based class_id. Then once all the data has been receiveed it closes the connection to the database. Then it will initializes an empty list for posts and iterates over the information from the database. For each row, a post dictionary is created and filled with given data. The post is then added to the list of posts. Finally, the function renders the class disscussion having the class_id and the list of posts as parameters.
 ## Flow chart 3
  ![flow chart 3 drawio](https://user-images.githubusercontent.com/111752809/236625402-eb01b634-89a3-4d9c-a499-1b6bdb6b2a78.png)
  
@@ -51,19 +51,19 @@ By using Flask, HTML, and CSS I as a developer will have full control over all o
  ## ER
 ![Final ER1 drawio](https://user-images.githubusercontent.com/111752809/236625450-084cddd6-87b4-4dd4-ad63-418f7a3d5522.png)
 
- **Fig-4**:ER diagram
+ **Fig-4**: The ER diagram seen above is a visual representation of the relationships between entities in the social network database. It illustrates how different entities relate to each other and the attributes associated with each entity. Such as the connection bettween the user, classes, and comments tables.
 ## UML Diagram
 ![uml12 drawio](https://user-images.githubusercontent.com/111752809/236625886-87d4b502-19aa-429d-ba5d-9e75883280b4.png)
 
- **Fig-5**:UML diagram
+ **Fig-5**:The UML (Unified Modeling Language) diagram above shows the OOP(Object Oriented Programming) used in the database interaction bettween the social network and the sqllite database. It first initializes the name of the database entered with a connection to the given sql database. From there each of the 3 functcions; searching in the database, changing and saving information in the database, and closing the database. 
 ## Wireframe Diagram
 ![Final wireframe drawio (1)](https://user-images.githubusercontent.com/111752809/235333678-9c327194-4064-4ed2-883c-f4e8af9e7c74.png)
 
- **Fig-6**:wirefram diagram
+ **Fig-6**:The Wirefram diagram above outlines the basic structure and layout of a Social Network Webpage. It shows the basic outline and architeture of the webpages features, such as buttons and inputs. There are also colored arrows to show the relationship between the buttons the pages that they lead too. All the arrows with the same color lead to the same function or page.
 ## System diagram
 ![Output App screen (2)](https://user-images.githubusercontent.com/111752809/235333733-c8d8a0ea-76fe-4d2a-b917-14adaeb59f55.png)
 
- **Fig-7**:system diagram
+ **Fig-7**: The system diagram shows the realationship bettween the server running the website and the clients screen. It shows all of the componets used for the creating the social network that are being run all the functions and visuals on the clients screen. It shows how the Social Networks communicates with the server through GET and POST requests.
 
  ## Test plan
  | Instruction   | Process                                            | Planned action                                                                                                                                         | Planned Outcome        | Type | Success Criteria |
@@ -412,4 +412,3 @@ https://drive.google.com/drive/folders/18-R1u6SCh9nO37DIwpqQOOodigA2-RG1?usp=sha
  ## Apendix
  ### Client Meeting notes
 
- ## Final Python Code
