@@ -393,15 +393,18 @@ From the peer feedback, it appears that the platform meets the expectations of t
  
 
  ## Apendix
- Meeting 1 transcript
+ ### Meeting 1 transcript
  ![Meeting 1](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/8154ae08-e024-4568-889b-e115b8938111)
+ 
 Fig.A.1
- Meeting 2 transcript
+ ### Meeting 2 transcript
  ![meeting 2](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/b2c6f446-d7b9-4fff-994e-0a5b8c5d54a6)
+ 
  Fig.A.2
- Feedback meeting transcipt
+ ### Feedback meeting transcipt
  ![feedback meeting](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/0c957d92-8217-4050-b8c9-5eb129fa015c)
-![feedback meeting1](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/53d98e3d-8a1f-47f9-8904-54e7293befbd)
+ ![feedback meeting1](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/8ca9ada9-cd89-4cd8-9f6a-4cf23ece84bb)
+
 Fig.A.3
  ## Citation
  https://www.analyticsvidhya.com/blog/2021/10/easy-introduction-to-flask-framework-for-beginners/
