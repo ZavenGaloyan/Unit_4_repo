@@ -20,7 +20,8 @@ My client is a grade 11 student that studying the International Baccalaureate di
 5.Integrate a resources page based off interests[ Issue Tackled: "difficulies in finding resources for studying in the international Baccalaureate system"]<sup>5</sup>
 
 6. Allow user to have the option to post anonymous[ Issue Tackled: "client along with other students often feel embaresed with some of the question they want to ask"]<sup>6</sup>
-[Fig.A.2 for Second Meeting](#meeting2)
+
+[Fig.A.2 for Client Check up](#meeting2)
 ## Design Statement
 I will design and develop a website my clients school. This website will be developed using the flask webframework, html, and CSS, and SQLite. It will aproximatley take 4 weeks to fully develop.
  ## Rationale for Proposed Soultion
