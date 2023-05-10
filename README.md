@@ -39,11 +39,12 @@ By using Flask, HTML, and CSS I as a developer will have full control over all o
  
 
  ## Flow Chart 1
- ![Flow chart 1 Posting drawio (1) drawio](https://user-images.githubusercontent.com/111752809/236625415-e93e11ce-edb3-4425-b84f-e6f297bf4c8f.png)
- 
+ ![Flow chart 1 Posting drawio (1) drawio (1)](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/0ece4c06-45a6-47e5-8bad-8f4a40151871)
+
   **Fig-1**: Once the alorithm recives a post request begins a process of getting all of the nessisary parameters for a post. It will receive the title, content, and images take from the user input. It receives the username by first getting the user_id with the cookie then quering the user_id to database to find the username. Once all the data has been collected it will check whether the user has selected to keep the username anaymous, after which it will enter all of the data into their respective places in the database.
  ## Flow chart 2
-![flow chart 2 drawio](https://user-images.githubusercontent.com/111752809/236625439-ee1d4024-4601-4044-9ea4-d92571f67cdd.png)
+![flow chart 2 drawio (1)](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/aaf7b953-5ba5-4043-bf0d-308f9a91ca9b)
+
 
  **Fig-2**: On the instance a request is made the algorthm will begin by  creating a connection to the "social_net.db" atabase. The class_id is retrieved from the request arguments. After which, a query is run to collect all of data from the "classes" table based class_id. Then once all the data has been receiveed it closes the connection to the database. Then it will initializes an empty list for posts and iterates over the information from the database. For each row, a post dictionary is created and filled with given data. The post is then added to the list of posts. Finally, the function renders the class disscussion having the class_id and the list of posts as parameters.
 ## Flow chart 3
