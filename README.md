@@ -4,8 +4,8 @@
 
  # Criteria A: Planning:
  ## Problem definition
-My client is a grade 11 student that studying the International Baccalaureate diploma program at their school. Despite them having access to numerous online resources, they and there pear students often struggle to find a supportive community of memebers who can help them study effectively and navigate their individual academic challenges<sup>1</sup>. This casues them to often feel isolated and overwhelmed at times of adversity, particularly when studying alone, which can negatively impact their motivation, learning goals, and in some cases their mental health. Thus the client wishes there was a way that can allow students to connect and work together in a collaborative learning enviroment<sup>2</sup> where they may discuss academic problems and help each other work their own problems out<sup>4</sup> and sharing their own resoruces<sup>3</sup>. However the client along with other students often feel embaresed with some of the question they want to ask<sup>6</sup>. They have also expressed their difficulies in finding resources for studying in the international Baccalaureate system<sup>5</sup>. The client believes that if these problems are addressed accordingly that it will foster a sense of community, allowing for their and others students academic growth and engagement, and general improvement in academic performance.( See Apendix for Consultatoin)
- ## Proposed Solution
+My client is a grade 11 student that studying the International Baccalaureate diploma program at their school. Despite them having access to numerous online resources, they and there pear students often struggle to find a supportive community of memebers who can help them study effectively and navigate their individual academic challenges<sup>1</sup>. This casues them to often feel isolated and overwhelmed at times of adversity, particularly when studying alone, which can negatively impact their motivation, learning goals, and in some cases their mental health. Thus the client wishes there was a way that can allow students to connect and work together in a collaborative learning enviroment<sup>2</sup> where they may discuss academic problems and help each other work their own problems out<sup>4</sup> and sharing their own resoruces<sup>3</sup>. However the client along with other students often feel embaresed with some of the question they want to ask<sup>6</sup>. They have also expressed their difficulies in finding resources for studying in the international Baccalaureate system<sup>5</sup>. The client believes that if these problems are addressed accordingly that it will foster a sense of community, allowing for their and others students academic growth and engagement, and general improvement in academic performance.( [Fig.A.1](#meeting1) for consultation)
+ ## Proposed Solution 
  To Create a social network for the client and there school using python, html, and css along with sql databases. It will have seperate pages based off of classes a certain individual takes. These pages will allow students to communicate with their peers and share resources. They can also create their own groups to which their peers can join if they need to complete a project or group task. 
  ## Success Criteria
  
@@ -377,6 +377,8 @@ https://drive.google.com/drive/folders/18-R1u6SCh9nO37DIwpqQOOodigA2-RG1?usp=sha
 |Allow users to comment on specific posts             |       ✓         |        Good          |
 |Integrate a resources page based off interests             |       ✓         |        If there was a search feature to find resources more specified          |
  |Allow user to have the option to post anonymous           |        ✓        |       Good           |
+ 
+ (Fig.A.3 [Feedback Meeting](#meeting3)
  ## Recomendation 1
  Based on the feedback provided by the client, it seems that the platform has successfully met their expectations and requirements. However, the client mentioned a desire for a more specified search feature within the integrated resources page. To address this, it would be recommended to enhance the resources page by implementing a search bar or advanced filtering options. This would allow users to find resources that align more closely with their specific interests and needs.
  ## Peer Feedback
@@ -394,14 +396,17 @@ From the peer feedback, it appears that the platform meets the expectations of t
 
  ## Apendix
  ### Meeting 1 transcript
+ <a id="meeting1"></a>
  ![Meeting 1](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/8154ae08-e024-4568-889b-e115b8938111)
  
 Fig.A.1
  ### Meeting 2 transcript
+ <a id="meeting2"></a>
  ![meeting 2](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/b2c6f446-d7b9-4fff-994e-0a5b8c5d54a6)
  
  Fig.A.2
  ### Feedback meeting transcipt
+ <a id="meeting3"></a>
  ![feedback meeting](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/0c957d92-8217-4050-b8c9-5eb129fa015c)
  ![feedback meeting1](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/8ca9ada9-cd89-4cd8-9f6a-4cf23ece84bb)
 
