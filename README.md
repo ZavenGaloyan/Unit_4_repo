@@ -382,7 +382,7 @@ https://drive.google.com/drive/folders/18-R1u6SCh9nO37DIwpqQOOodigA2-RG1?usp=sha
  ## Recomendation 1
  Based on the feedback provided by the client, it seems that the platform has successfully met their expectations and requirements. However, the client mentioned a desire for a more specified search feature within the integrated resources page. To address this, it would be recommended to enhance the resources page by implementing a search bar or advanced filtering options. This would allow users to find resources that align more closely with their specific interests and needs.
  ## Peer Feedback
- <a id="meeting1"></a>
+ 
  |  Criteria  | ✓ / 𐄂          | Client Comments  |
 |-------------|----------------|------------------|
 | Allow users to create accounts and login         |  ✓              |        If there were more clear error messages from misinputs          |
@@ -392,6 +392,7 @@ https://drive.google.com/drive/folders/18-R1u6SCh9nO37DIwpqQOOodigA2-RG1?usp=sha
 |Integrate a resources page based off interests             |       ✓         |     good             |
  |Allow user to have the option to post anonymous           |        ✓        |       good           |
 ## Recomendation 2
+<a id="meeting1"></a>
 From the peer feedback, it appears that the platform meets the expectations of the users. However, they suggested a couple of improvements. Firstly, they mentioned the need for clearer error messages when inputting information during the account creation and login process. Enhancing the error messages to provide specific details about the errors encountered would improve the user experience. Secondly, the peers mentioned the importance of having a back button or cancel button while using the chat feature. Implementing such a feature would allow users to navigate more easily and correct any accidental actions without losing their progress.
  
 
