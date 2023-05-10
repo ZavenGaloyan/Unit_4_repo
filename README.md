@@ -382,6 +382,7 @@ https://drive.google.com/drive/folders/18-R1u6SCh9nO37DIwpqQOOodigA2-RG1?usp=sha
  ## Recomendation 1
  Based on the feedback provided by the client, it seems that the platform has successfully met their expectations and requirements. However, the client mentioned a desire for a more specified search feature within the integrated resources page. To address this, it would be recommended to enhance the resources page by implementing a search bar or advanced filtering options. This would allow users to find resources that align more closely with their specific interests and needs.
  ## Peer Feedback
+ <a id="meeting1"></a>
  |  Criteria  | ✓ / 𐄂          | Client Comments  |
 |-------------|----------------|------------------|
 | Allow users to create accounts and login         |  ✓              |        If there were more clear error messages from misinputs          |
@@ -396,17 +397,16 @@ From the peer feedback, it appears that the platform meets the expectations of t
 
  ## Apendix
  ### Meeting 1 transcript
- <a id="meeting1"></a>
+ <a id="meeting2"></a>
  ![Meeting 1](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/8154ae08-e024-4568-889b-e115b8938111)
  
 Fig.A.1
  ### Meeting 2 transcript
- <a id="meeting2"></a>
+ <a id="meeting3"></a>
  ![meeting 2](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/b2c6f446-d7b9-4fff-994e-0a5b8c5d54a6)
  
  Fig.A.2
  ### Feedback meeting transcipt
- <a id="meeting3"></a>
  ![feedback meeting](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/0c957d92-8217-4050-b8c9-5eb129fa015c)
  ![feedback meeting1](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/8ca9ada9-cd89-4cd8-9f6a-4cf23ece84bb)
 
