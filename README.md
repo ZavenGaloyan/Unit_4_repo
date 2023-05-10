@@ -101,11 +101,11 @@ By using Flask, HTML, and CSS I as a developer will have full control over all o
 |  19  | Commenting integration  | Creating a commenting page and make the nessicary connection bettween the database and post. alos inproving the UI of the commenting page  |Development    | 1 hour      |  April 27  | C 
 |  20  | Adding Image uploading | Adding the feature for users to select images from their computer and upload them along with their posts   |Development   | 3 hour      |  April 29  | C |
 |  21  | Code optimization  | Clearing up the code and removing repetitiveness.   |Development   | 1 hour      |  May 2  | C |
-|  22  | GitHub work  | [Working on do documentaion for the project](#testing)  |Development    | 1 hour      |  May 5  | B |
-|  23  | Testing Login & Registering  | Completing the login and register testing   |test    | 1 hour      |  May 6  | B |
-|  24  | Testing Posting & Commenting  | Completing the Posting and Uploading Resources and commenting testing  |test    | 3 hour      |  May 5  | B |
-|  25  | Load testing  | Completing the load testing   |test    | 3 hour      |  May 6  | C |
-|  26  | Beta testing: Evaluation by Peer   | Providing the product to a peer to test for functionality  |Implementation    | 1 hour      |  May 7  | B |
+|  22  | GitHub work  | Working on do documentaion for the project(#testing)  |Development    | 1 hour      |  May 5  | B |
+|  23  | Testing Login & Registering  | [Completing the login and register testing](#testing)   |test    | 1 hour      |  May 6  | B |
+|  24  | Testing Posting & Commenting  | [Completing the Posting and Uploading Resources and commenting testing](#testing)  |test    | 3 hour      |  May 5  | B |
+|  25  | Load testing  | [Completing the load testing](#testing)   |test    | 3 hour      |  May 6  | C |
+|  26  | Beta testing: Evaluation by Peer   | [Providing the product to a peer to test for functionality](#testing)  |Implementation    | 1 hour      |  May 7  | B |
 |  27  | Client Feedback   | Consulting the Client after testing to recieve feedback(May be seen in appendix)  |Implementation    | 1 hour      |  May 7  |E |
 |  28  | Implementation: Evaluation by Client   | Providing the Product developed to the Client to test functionality  |Implementation    | 1 hour      |  May 8  | E |
 |  29  | Reflection   | After all feeback filling out areas of improvment and further development to imporve the final product  |Development    | 1 hour      |  May 5  | E |
