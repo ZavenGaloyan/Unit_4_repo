@@ -9,17 +9,17 @@
  To Create a social network for the client and there school using python, html, and css along with sql databases. It will have seperate pages based off of classes a certain individual takes. These pages will allow students to communicate with their peers and share resources. They can also create their own groups to which their peers can join if they need to complete a project or group task. 
  ## Success Criteria
  
-1. Allow users to create accounts and login [Issue Tackled: "pear students often struggle to find a supportive community"]<sup>1</sup>
+1. Allow users to create accounts and login[Issue Tackled: "pear students often struggle to find a supportive community"]<sup>1</sup>
 
-2.Allow users to chat bettween eachother and in relative classes using a posting method [Issue Tackled: "connect and work together in a collaborative learning enviroment"]<sup>2</sup> 
+2.Allow users to chat bettween eachother and in relative classes using a posting method[Issue Tackled: "connect and work together in a collaborative learning enviroment"]<sup>2</sup> 
 
-3.Allow for users to upload and share resources [ Issue Tackled: "sharing their own resoruces"]<sup>3</sup>
+3.Allow for users to upload and share resources[ Issue Tackled: "sharing their own resoruces"]<sup>3</sup>
 
-4.Allow users to comment on specific posts [ Issue Tackled: "discuss academic problems and help each other work their own problems out"]<sup>4</sup>
+4.Allow users to comment on specific posts[ Issue Tackled: "discuss academic problems and help each other work their own problems out"]<sup>4</sup>
 
-5.Integrate a resources page based off interests [ Issue Tacled: "difficulies in finding resources for studying in the international Baccalaureate system"]<sup>5</sup>
+5.Integrate a resources page based off interests[ Issue Tackled: "difficulies in finding resources for studying in the international Baccalaureate system"]<sup>5</sup>
 
-6. Allow user to have the option to post anonymous [ Issue Tackled: "client along with other students often feel embaresed with some of the question they want to ask"]<sup>6</sup>
+6. Allow user to have the option to post anonymous[ Issue Tackled: "client along with other students often feel embaresed with some of the question they want to ask"]<sup>6</sup>
 ## Design Statement
 I will design and develop a website my clients school. This website will be developed using the flask webframework, html, and CSS, and SQLite. It will aproximatley take 4 weeks to fully develop.
  ## Rationale for Proposed Soultion
