@@ -417,20 +417,25 @@ Fig.A.3
  ## Citation
  <a id="refs"></a>
  
- https://www.analyticsvidhya.com/blog/2021/10/easy-introduction-to-flask-framework-for-beginners/
- 
- https://codeinstitute.net/global/blog/what-is-html-and-why-should-i-learn-it/
- 
- https://www.howtogeek.com/devops/what-is-sqlite-and-why-is-it-so-popular/
- 
- https://stackoverflow.com/questions/22171558/what-does-enumerate-mean
- 
-https://www.filestack.com/fileschool/html/html-file-upload-tutorial-example/
- 
-https://aws.amazon.com/codewhisperer/
- 
-https://www.w3schools.com/html/html_css.asp
- 
-https://www.revisionvillage.com/ib-math/analysis-and-approaches-hl/
- ### Client Meeting notes
+"Analysis and Approaches HL." Revision Village, www.revisionvillage.com/ib-math/analysis-and-approaches-hl/.
+
+"CodeWhisperer." Amazon Web Services, aws.amazon.com/codewhisperer/.
+
+"Easy Introduction to Flask Framework for Beginners." Analytics Vidhya, 2021, www.analyticsvidhya.com/blog/2021/10/easy-introduction-to-flask-framework-for-beginners/.
+
+"How to Set Cookie in Python Flask?" Stack Overflow, stackoverflow.com, questions/46661083/how-to-set-cookie-in-python-flask.
+
+"HTML and CSS Tutorial." W3Schools, www.w3schools.com/html/html_css.asp.
+
+"HTML File Upload Tutorial with Example." Filestack Fileschool, www.filestack.com/fileschool/html/html-file-upload-tutorial-example/.
+
+"HTTP Request Methods Explained." freeCodeCamp, www.freecodecamp.org/news/http-request-methods-explained/.
+
+"When trying to convert a list of Python dictionaries into a SQLite table, I keep getting an error." Stack Overflow, stackoverflow.com, questions/70548095/when-trying-to-convert-a-list-of-python-dictionaries-into-a-sqlite-table-i-keep.
+
+"What does enumerate mean?" Stack Overflow, stackoverflow.com, questions/22171558/what-does-enumerate-mean.
+
+"What is HTML and Why Should I Learn It?" Code Institute, 2023, codeinstitute.net/global/blog/what-is-html-and-why-should-i-learn-it/.
+
+"What is SQLite and Why Is It So Popular?" How-To Geek, howtogeek.com, devops/what-is-sqlite-and-why-is-it-so-popular/.
 
