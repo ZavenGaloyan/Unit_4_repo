@@ -34,7 +34,7 @@ HTML was chosen as the standard markup language for this particualr project as i
 CSS similarly to the reason was HTML is being used CSS is the most popular method for styling formating of websites. Its vast possiblitiyes of custimization allow for any of the clients needs to be met accordingly. Also the ease of integrating CSS with HTML will allow for developers to easily and effectivly meet specific requirments of the client.
 
 By using Flask, HTML, and CSS I as a developer will have full control over all of the aspects of the program allowing me to fully meet any of the clients requirments in terms of design and functionality. While not comprimising on time constrains or developer setbacks that may occur if other methods were to be used. 
-
+[Sources and Referances](#refs)
  # Criteria B: Solution Overview:
  
 
@@ -415,6 +415,8 @@ Fig.A.1
 
 Fig.A.3
  ## Citation
+ <a id="refs"></a>
+ 
  https://www.analyticsvidhya.com/blog/2021/10/easy-introduction-to-flask-framework-for-beginners/
  
  https://codeinstitute.net/global/blog/what-is-html-and-why-should-i-learn-it/
