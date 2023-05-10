@@ -66,6 +66,7 @@ By using Flask, HTML, and CSS I as a developer will have full control over all o
  **Fig-7**: The system diagram shows the realationship bettween the server running the website and the clients screen. It shows all of the componets used for the creating the social network that are being run all the functions and visuals on the clients screen. It shows how the Social Networks communicates with the server through GET and POST requests.
 
  ## Test plan
+ <a id="testing"></a>
  | Instruction   | Process                                                    | Planned Outcome        | Type | Success Criteria |
 |----|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|--------------------|
 |  Registration  | 1. Open the Website 2.Click registration button 3.Fill in text fields accordingly 4.Press register button | Login screen opens then once the register is pressed the registrations page comes up. If text fields have invalid inputs then program provides helper text for the inputs to be valid. Once the inputs are valide teh registration will go through and the page will change back to the login screen.   | Unit test      |  1 |
@@ -83,25 +84,33 @@ By using Flask, HTML, and CSS I as a developer will have full control over all o
 |  2  | Creating sucesss critiera  | Creating a set of criteria that need to be met for the all of the clients requests to be satisfied| Planning     | 30 minutes      | April 13 | A |
 |  3  | Proposed soultion  | The first propistion for a soultion for the clients problem. It covers all of the nessisary concerns that were rasied in the client developer meetings |Planning    | 20 minutes      |  April 14 | A |
 |  4  | rationale  | Providing the reasoning for the all of the tools what are to be used in the development aspect of this Social Network. And their why I chose these tools compared methods out for web development|Planning    | 45 minutes      |  April 15 | A |
-|  5  | ER diagram  | A visual diagram for the databases in the Social Network and how they work together  |Designing    | 30 minutes      |  April 16 | A |
-|  6  | System diagram  | This is a visual diagram that represents the process that the users computer and server go through for the Social Network to function properly|Designing  | 45 minutes      |  April 16 | A |
-|  7  | Wireframe diagram  | This is a basic representation in a diagram of all the web pages and buttons with their repsetive function and how they all work together  |Designing   | 30 minutes      |  April 16 | A |
-|  8  | Login developemnt  | Creating a simple login screen that allows the user to enter the Social Network on their individual accounts by inputing their credentials |Development   | 1 hour      |  April 16 | A |
-|  9  | Registration development  | Creating a Page where the new users can create a new account for the Social Network by entering their credentials. That will be sequrly stored in the servers database|Development    | 1 hour 30 minutes      |  April 17 | A |
-|  10  | Database implemetation  | Connecting the registration and Login via a database that stores all of the users data and credentials|Development    | 1 hour      |  April 17 | A |
-|  11  | Menu Page development  | Creating a simple and user friendly UI for users to navigate across the social network |Development    | TBD      |  April  | A |
-|  12  | Classes Page development  | This a page where users can join specific descussion groups based on classes they may be taking or interested in |Development    | TBD      |  April   | A |
-|  13  | Resources Page development  | This is a general page where there will be resources for students that are pre-entered how ever users pay also add their own resources they find |Development    | TBD      |  April  | A |
-|  14  | Classes page developments  | The differant class buttons are made to show the discussions for each class based on whats in the database  |Development    | 1 hour 30 minutes      |  April 19 | A |
-|  15  | Creating function for posting information  | Create a button whihc leads to a page that allows users to post information with a title, and content |Development    | 1 hour 30 min      |  April 19  | A |
-|  16  | Improving Visuals of classes page   | To add some styling to the classes page to make it more visualy appealing   |Development   | 1 hour      |  April 19  | A |
-|  17  | Adding resources page   | Add a page with many helpful resources for students that are particularly sutited for IB  |Development   | 1 hour      |  April 21  | A |
-|  18  | Login authorization  | Implemenmting cookies to make the website mroe sequre for users. |Development   | 1 hour      |  April 21  | A |
-|  19  | Implementing Commenting database  | Creating a database that is for holding comments connected to each post.   |Development   | 1 hour      |  April 22  | A |
-|  20  | Commenting integration  | Creating a commenting page and make the nessicary connection bettween the database and post. alos inproving the UI of the commenting page  |Development    | 1 hour      |  April 27  | A |
-|  23  | Adding Image uploading | Adding the feature for users to select images from their computer and upload them along with their posts   |Development   | 3 hour      |  April 29  | A |
-|  24  | Code optimization  | Clearing up the code and removing repetitiveness.   |Development   | 1 hour      |  May 2  | A |
-|  25  | GitHub work  | Working on do documentaion for the project  |Development    | 1 hour      |  May 5  | A |
+|  5  | ER diagram  | A visual diagram for the databases in the Social Network and how they work together  |Designing    | 30 minutes      |  April 16 | B |
+|  6  | System diagram  | This is a visual diagram that represents the process that the users computer and server go through for the Social Network to function properly|Designing  | 45 minutes      |  April 16 | B |
+|  7  | Wireframe diagram  | This is a basic representation in a diagram of all the web pages and buttons with their repsetive function and how they all work together  |Designing   | 30 minutes      |  April 16 | B |
+|  8  | Login developemnt  | Creating a simple login screen that allows the user to enter the Social Network on their individual accounts by inputing their credentials |Development   | 1 hour      |  April 16 | C |
+|  9  | Registration development  | Creating a Page where the new users can create a new account for the Social Network by entering their credentials. That will be sequrly stored in the servers database|Development    | 1 hour 30 minutes      |  April 17 | C |
+|  10  | Database implemetation  | Connecting the registration and Login via a database that stores all of the users data and credentials|Development    | 1 hour      |  April 17 | C |
+|  11  | Menu Page development  | Creating a simple and user friendly UI for users to navigate across the social network |Development    | 2 hours      |  April 18 | C |
+|  12  | Classes Page development  | This a page where users can join specific descussion groups based on classes they may be taking or interested in |Development    | 2 hous      |  April 18  | C |
+|  13  | Resources Page development  | This is a general page where there will be resources for students that are pre-entered |Development    | 1 hour      |  April 19  | C |
+|  14  | Classes page developments  | The differant class buttons are made to show the discussions for each class based on whats in the database  |Development    | 1 hour 30 minutes      |  April 19 | C |
+|  15  | Creating function for posting information  | Create a button whihc leads to a page that allows users to post information with a title, and content |Development    | 1 hour 30 min      |  April 19  | C |
+|  16  | Improving Visuals of classes page   | To add some styling to the classes page to make it more visualy appealing   |Development   | 1 hour      |  April 20  | C |
+|  17  | Login authorization  | Implemenmting cookies to make the website mroe sequre for users. |Development   | 1 hour      |  April 21  | A |
+|  18  | Implementing Commenting database  | Creating a database that is for holding comments connected to each post.   |Development   | 1 hour      |  April 22  | A |
+|  19  | Commenting integration  | Creating a commenting page and make the nessicary connection bettween the database and post. alos inproving the UI of the commenting page  |Development    | 1 hour      |  April 27  | C 
+|  20  | Adding Image uploading | Adding the feature for users to select images from their computer and upload them along with their posts   |Development   | 3 hour      |  April 29  | C |
+|  21  | Code optimization  | Clearing up the code and removing repetitiveness.   |Development   | 1 hour      |  May 2  | C |
+|  22  | GitHub work  | [Working on do documentaion for the project](#testing)  |Development    | 1 hour      |  May 5  | B |
+|  23  | Testing Login & Registering  | Completing the login and register testing   |test    | 1 hour      |  May 6  | B |
+|  24  | Testing Posting & Commenting  | Completing the Posting and Uploading Resources and commenting testing  |test    | 3 hour      |  May 5  | B |
+|  25  | Load testing  | Completing the load testing   |test    | 3 hour      |  May 6  | C |
+|  26  | Beta testing: Evaluation by Peer   | Providing the product to a peer to test for functionality  |Implementation    | 1 hour      |  May 7  | B |
+|  27  | Client Feedback   | Consulting the Client after testing to recieve feedback(May be seen in appendix)  |Implementation    | 1 hour      |  May 7  |E |
+|  28  | Implementation: Evaluation by Client   | Providing the Product developed to the Client to test functionality  |Implementation    | 1 hour      |  May 8  | E |
+|  29  | Reflection   | After all feeback filling out areas of improvment and further development to imporve the final product  |Development    | 1 hour      |  May 5  | E |
+
+
 
 
  # Criteria C: Development:
