@@ -371,27 +371,32 @@ https://drive.google.com/drive/folders/18-R1u6SCh9nO37DIwpqQOOodigA2-RG1?usp=sha
  ## Client Feedback
  |  Criteria  | ✓ / 𐄂          | Client Comments  |
 |-------------|----------------|------------------|
-| Allow users to create accounts and login         |  ✓              |                  |
-| Allow users to chat bettween eachother and in relative classes using a posting method            |    ✓            |                  |
-|Allow for users to upload and share resources             |    ✓            |                  |
-|Allow users to comment on specific posts             |       ✓         |                  |
-|Integrate a resources page based off interests             |       ✓         |                  |
- |Allow user to have the option to post anonymous           |        ✓        |                  |
+| Allow users to create accounts and login         |  ✓              |      Good            |
+| Allow users to chat bettween eachother and in relative classes using a posting method            |    ✓            |         Good         |
+|Allow for users to upload and share resources             |    ✓            |         good        |
+|Allow users to comment on specific posts             |       ✓         |        Good          |
+|Integrate a resources page based off interests             |       ✓         |        If there was a search feature to find resources more specified          |
+ |Allow user to have the option to post anonymous           |        ✓        |       Good           |
  
  ## Peer Feedback
  |  Criteria  | ✓ / 𐄂          | Client Comments  |
 |-------------|----------------|------------------|
-| Allow users to create accounts and login         |  ✓              |                  |
-| Allow users to chat bettween eachother and in relative classes using a posting method            |    ✓            |                  |
-|Allow for users to upload and share resources             |    ✓            |                  |
-|Allow users to comment on specific posts             |       ✓         |                  |
-|Integrate a resources page based off interests             |       ✓         |                  |
- |Allow user to have the option to post anonymous           |        ✓        |                  |
+| Allow users to create accounts and login         |  ✓              |        If there were more clear error messages from misinputs          |
+| Allow users to chat bettween eachother and in relative classes using a posting method            |    ✓            |       If there were a back button or cancel button.          |
+|Allow for users to upload and share resources             |    ✓            |       good           |
+|Allow users to comment on specific posts             |       ✓         |        good          |
+|Integrate a resources page based off interests             |       ✓         |     good             |
+ |Allow user to have the option to post anonymous           |        ✓        |       good           |
 
  
 
  ## Apendix
- 
+ Meeting 1
+ ![Meeting 1](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/8154ae08-e024-4568-889b-e115b8938111)
+
+ Meeting 2
+ ![meeting 2](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/b2c6f446-d7b9-4fff-994e-0a5b8c5d54a6)
+
  ## Citation
  https://www.analyticsvidhya.com/blog/2021/10/easy-introduction-to-flask-framework-for-beginners/
  
