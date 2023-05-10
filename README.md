@@ -47,7 +47,8 @@ By using Flask, HTML, and CSS I as a developer will have full control over all o
 
  **Fig-2**: On the instance a request is made the algorthm will begin by  creating a connection to the "social_net.db" atabase. The class_id is retrieved from the request arguments. After which, a query is run to collect all of data from the "classes" table based class_id. Then once all the data has been receiveed it closes the connection to the database. Then it will initializes an empty list for posts and iterates over the information from the database. For each row, a post dictionary is created and filled with given data. The post is then added to the list of posts. Finally, the function renders the class disscussion having the class_id and the list of posts as parameters.
 ## Flow chart 3
- ![flow chart 3 drawio](https://user-images.githubusercontent.com/111752809/236625402-eb01b634-89a3-4d9c-a499-1b6bdb6b2a78.png)
+ ![flow_chart3 drawio](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/f37fda37-a3e2-4f65-93e6-c8dd2a4d7874)
+
  
   **Fig-3**:flow chart 3
  ## ER
