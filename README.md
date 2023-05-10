@@ -378,7 +378,7 @@ https://drive.google.com/drive/folders/18-R1u6SCh9nO37DIwpqQOOodigA2-RG1?usp=sha
 |Integrate a resources page based off interests             |       ✓         |                  |
  |Allow user to have the option to post anonymous           |        ✓        |                  |
  
- ## Random User Feedback
+ ## Peer Feedback
  |  Criteria  | ✓ / 𐄂          | Client Comments  |
 |-------------|----------------|------------------|
 | Allow users to create accounts and login         |  ✓              |                  |
@@ -391,6 +391,8 @@ https://drive.google.com/drive/folders/18-R1u6SCh9nO37DIwpqQOOodigA2-RG1?usp=sha
  
 
  ## Apendix
+ 
+ ## Citation
  https://www.analyticsvidhya.com/blog/2021/10/easy-introduction-to-flask-framework-for-beginners/
  
  https://codeinstitute.net/global/blog/what-is-html-and-why-should-i-learn-it/
