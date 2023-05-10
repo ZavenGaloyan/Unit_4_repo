@@ -53,7 +53,7 @@ By using Flask, HTML, and CSS I as a developer will have full control over all o
 ![Login data](https://user-images.githubusercontent.com/111752809/236673359-ea5125d6-662d-4ef5-b3b1-7ff7a873d5af.png)
  **Fig-4**: The ER diagram seen above is a visual representation of the relationships between entities in the social network database. It illustrates how different entities relate to each other and the attributes associated with each entity. Such as the connection bettween the user, classes, and comments tables.
 ## UML Diagram
-![uml12 drawio](https://user-images.githubusercontent.com/111752809/236625886-87d4b502-19aa-429d-ba5d-9e75883280b4.png)
+![the uml drawio](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/46de4dda-3910-4d6c-a40a-ff50975c9836)
 
  **Fig-5**:The UML (Unified Modeling Language) diagram above shows the OOP(Object Oriented Programming) used in the database interaction bettween the social network and the sqllite database. It first initializes the name of the database entered with a connection to the given sql database. From there each of the 3 functcions; searching in the database, changing and saving information in the database, and closing the database. 
 ## Wireframe Diagram
@@ -66,15 +66,15 @@ By using Flask, HTML, and CSS I as a developer will have full control over all o
  **Fig-7**: The system diagram shows the realationship bettween the server running the website and the clients screen. It shows all of the componets used for the creating the social network that are being run all the functions and visuals on the clients screen. It shows how the Social Networks communicates with the server through GET and POST requests.
 
  ## Test plan
- | Instruction   | Process                                            | Planned action                                                                                                                                         | Planned Outcome        | Type | Success Criteria |
-|----|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|--------------------|-----------------|
-|  Login  | logging in                              | to login to users account | user able to login     | Unit test      |  1 |
-|  Registration  | registering | allow user to register | user able to register account   | Unit test      |  1 |
-|  Classes/posting  | entering classes                            |entering seperate classes and posting | serpated normally     | Integration testing     | 2 |
-|  Uploading Resources  | entering resorces| images and resources are uploarded properly | images entered     | Integration testing      | 3 |
-|  Commenting  | entering comments     | allow users to comment | users can comment    |Integration testing      | 4 |
-|  Anynous output  | users can post anymous                              | users can comment | the comments work     | Integration testing     | 6 |
-|  Usability  | functions             |  for function work accuratly and fast as expected | acomplished     | Non-functional testing     | 1,2,3,4,5,6 |
+ | Instruction   | Process                                                    | Planned Outcome        | Type | Success Criteria |
+|----|-----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|--------------------|
+|  Registration  | 1. Open the Website 2.Click registration button 3.Fill in text fields accordingly 4.Press register button | Login screen opens then once the register is pressed the registrations page comes up. If text fields have invalid inputs then program provides helper text for the inputs to be valid. Once the inputs are valide teh registration will go through and the page will change back to the login screen.   | Unit test      |  1 |
+|  Login  | 1. Open the Website 2.Enter login credtionals in textfields 3.Click Login button| Login screen opens up. Once creditionals are entered into the text the fields. Click Login button . If login is incorrect message appears that Login is incorrect. Also if text fields are empty then message pops up to say taht text fields are empty. Once the login credintionals match that off the ones in the database the page changes to the home screen.     | Unit test      |  1 |
+|  Classes  | 1.Open the website 2.Login with the test account created by registering 3. Click classes on the side bar. 4.Click on any of the listed classes.    | Once the User logs in with the account they registered it will bring the user to a home menu page. After which they may press the classes button to change the page to display all of the IB classes. From there when they click on any of the given classes buttons it will show all of the post for that given class. If there are no post then the page will be empty.     | Unit testing     | 2 |
+|  Posting and Uploading Resources  | 1.Open the website 2.Login with the test account created by registering 3.Click classes on the side bar 4.Click on any of the listed classes 5.Press Create Post on the top 6. Enter test into the title and content field. 7. Press upload image, Select an image from your computer. 8. Press post   |  Completes all the same planned outcomes for reaching the classes page. Once a given class has been select and create post has been pressed  it will render the page to create a post. Enter any text to the title and content input fields. Press the uplaod button. Select a resources or image. Then click post. It willl redirect the user to the classes page they were at before and their post can be found with the title content and image they entered at the bottom of the list of posts.  | Integration testing      | 3 |
+|  Commenting  | entering comments     | allow users to comment  users can comment    |Integration testing      | 4 |
+|  Anynous output  | users can post anymous                              | users can comment  the comments work     | Integration testing     | 6 |
+|  Usability  | functions             |  for function work accuratly and fast as expected | acomplished      Non-functional testing     | 1,2,3,4,5,6 |
  ## Record of tasks
 
 |    | Planned Action                                            | Planned Outcome                                                                                                                                         | Design Cycle      | Time Estimate      | Completion Date | Criteria |
