@@ -377,7 +377,8 @@ https://drive.google.com/drive/folders/18-R1u6SCh9nO37DIwpqQOOodigA2-RG1?usp=sha
 |Allow users to comment on specific posts             |       ✓         |        Good          |
 |Integrate a resources page based off interests             |       ✓         |        If there was a search feature to find resources more specified          |
  |Allow user to have the option to post anonymous           |        ✓        |       Good           |
- 
+ ## Recomendation 1
+ Based on the feedback provided by the client, it seems that the platform has successfully met their expectations and requirements. However, the client mentioned a desire for a more specified search feature within the integrated resources page. To address this, it would be recommended to enhance the resources page by implementing a search bar or advanced filtering options. This would allow users to find resources that align more closely with their specific interests and needs.
  ## Peer Feedback
  |  Criteria  | ✓ / 𐄂          | Client Comments  |
 |-------------|----------------|------------------|
@@ -387,16 +388,21 @@ https://drive.google.com/drive/folders/18-R1u6SCh9nO37DIwpqQOOodigA2-RG1?usp=sha
 |Allow users to comment on specific posts             |       ✓         |        good          |
 |Integrate a resources page based off interests             |       ✓         |     good             |
  |Allow user to have the option to post anonymous           |        ✓        |       good           |
-
+## Recomendation 2
+From the peer feedback, it appears that the platform meets the expectations of the users. However, they suggested a couple of improvements. Firstly, they mentioned the need for clearer error messages when inputting information during the account creation and login process. Enhancing the error messages to provide specific details about the errors encountered would improve the user experience. Secondly, the peers mentioned the importance of having a back button or cancel button while using the chat feature. Implementing such a feature would allow users to navigate more easily and correct any accidental actions without losing their progress.
  
 
  ## Apendix
- Meeting 1
+ Meeting 1 transcript
  ![Meeting 1](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/8154ae08-e024-4568-889b-e115b8938111)
-
- Meeting 2
+Fig.A.1
+ Meeting 2 transcript
  ![meeting 2](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/b2c6f446-d7b9-4fff-994e-0a5b8c5d54a6)
-
+ Fig.A.2
+ Feedback meeting transcipt
+ ![feedback meeting](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/0c957d92-8217-4050-b8c9-5eb129fa015c)
+![feedback meeting1](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/53d98e3d-8a1f-47f9-8904-54e7293befbd)
+Fig.A.3
  ## Citation
  https://www.analyticsvidhya.com/blog/2021/10/easy-introduction-to-flask-framework-for-beginners/
  
