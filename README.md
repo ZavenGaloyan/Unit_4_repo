@@ -162,6 +162,8 @@ By using Flask, HTML, CSS, and SQLlite I as a developer will have full control o
 * Password encryption and verification
 * Handling HTTP requests and responses
 * Cascading Style Sheets (CSS) and styling of HTML templates
+### Why these techniques
+By using Flask framework it provides a reliable and efficient way to develop a website with many features such as user registration and login functionality, handling form submissions, and performing database operations using a SQLite Database. It also allows for seamless integration of file uploads and handling, cookie management, and routing URLs to different parts of the website. Templating with Jinja2 enables the rendering of HTML templates, while input validation with WTForms ensures the security and accuracy of user inputs. Additional techniques that are gping to be used are password encryption and verification, handling HTTP requests and responses, and utilizing Cascading Style Sheets (CSS) for visually appealing and customized website styling.
  ## Refreneces
  ### Main Development Refrences
  #### AWS Code Whisper
