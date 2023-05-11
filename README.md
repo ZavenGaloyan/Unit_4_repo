@@ -23,7 +23,7 @@ My client is a grade 11 student that studying the International Baccalaureate di
 
 [Fig.A.2 for Client Check up](#meeting2)
 ## Design Statement
-I will design and develop a website my clients school. This website will be developed using the flask webframework, html, and CSS, and SQLite. It will aproximatley take 4 weeks to fully develop.
+I will design and develop a Social Network as a website for my client and their school to use. This website will be developed using the flask webframework, html, and CSS, and SQLite. It will aproximatley take 4 weeks to fully develop.
  ## Rationale for Proposed Soultion
 Based off the clients requests and success criteria that have decided upon the next step is the development of such social network. For doing so I have decided on using Flask as the web framework, html as the standard markup language, and css as the sheet style language. These particular tools have been chosen to build the the social netowork due to their appealing traits.
 
