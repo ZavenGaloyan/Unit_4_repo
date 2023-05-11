@@ -1,6 +1,7 @@
  # Unit_4_repo
 ![ISAK THINK TANK1](https://user-images.githubusercontent.com/111752809/230762338-8bac8895-1e9b-4532-9e7f-cb875409876d.png)
-[DALL·E 2](#refs)
+
+Fig. THINK THANK [DALL·E 2](#refs)
 
 
  # Criteria A: Planning:
