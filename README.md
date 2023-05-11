@@ -2,7 +2,7 @@
 ![think tank](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/4ae4bdf8-e76d-4619-ab01-9d663d430ccb)
 
 
-Fig. THINK THANK [DALL·E 2](#refs)
+Fig. THINK TANK [DALL·E 2](#refs)
 
 
  # Criteria A: Planning:
