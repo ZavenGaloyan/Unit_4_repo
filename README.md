@@ -56,7 +56,7 @@ By using Flask, HTML, CSS, and SQLlite I as a developer will have full control o
  ![flow_chart3 drawio](https://github.com/ZavenGaloyan/Unit_4_repo/assets/111752809/f37fda37-a3e2-4f65-93e6-c8dd2a4d7874)
 
  
-  **Fig-3**:flow chart 3
+  **Fig-3**:The flow chart above represents the backend algorthm for displaying and managing comments on a post within a Comment page. It retrieves the necessary data from a SQLite database based on the provided post ID and class ID. If the request method is POST, it adds a new comment to the database and redirects back to the page. Otherwise, it renders the page with the existing comments retrieved from the database.
  ## ER
 ![Final ER1 drawio](https://user-images.githubusercontent.com/111752809/236625450-084cddd6-87b4-4dd4-ad63-418f7a3d5522.png)
 ![Login data](https://user-images.githubusercontent.com/111752809/236673359-ea5125d6-662d-4ef5-b3b1-7ff7a873d5af.png)
