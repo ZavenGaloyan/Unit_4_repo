@@ -440,6 +440,8 @@ Fig.A.3
 
 "What does enumerate mean?" Stack Overflow, stackoverflow.com, questions/22171558/what-does-enumerate-mean.
 
+https://openai.com/product/dall-e-2
+
 "What is HTML and Why Should I Learn It?" Code Institute, 2023, codeinstitute.net/global/blog/what-is-html-and-why-should-i-learn-it/.
 
 "What is SQLite and Why Is It So Popular?" How-To Geek, howtogeek.com, devops/what-is-sqlite-and-why-is-it-so-popular/.
